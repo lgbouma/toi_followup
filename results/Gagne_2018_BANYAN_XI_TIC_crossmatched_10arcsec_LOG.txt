@@ -1,0 +1,2793 @@
+1406 objects in Gagne table
+0/1406
+1/1406
+2/1406
+3/1406
+4/1406
+	desired propmot_ra, propmot_dec
+	 132.0 -164.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.33365292  2.70720731] [ 97.42  97.42] [-155.17 -155.17]
+	taking closest in separation (same as in PM)
+5/1406
+6/1406
+	desired propmot_ra, propmot_dec
+	 0.0 0.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 2.25957092  4.65664301] [ 97.42  97.42] [-155.17 -155.17]
+	taking closest in separation b/c bad reference PM
+7/1406
+8/1406
+9/1406
+10/1406
+11/1406
+12/1406
+13/1406
+14/1406
+	desired propmot_ra, propmot_dec
+	 117.53 -158.88
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 3.43260866  6.52103142] [ 117.53  106.77] [-158.88 -160.85]
+	taking closest in separation (good signs for closest in sep)
+15/1406
+	desired propmot_ra, propmot_dec
+	 0.0 0.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.98984466  2.92390038] [ 117.53  106.77] [-158.88 -160.85]
+	taking closest in separation b/c bad reference PM
+16/1406
+17/1406
+18/1406
+19/1406
+	desired propmot_ra, propmot_dec
+	 55.0 -134.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.14497993  0.1878802 ] [ 59.21  52.6 ] [-129.85 -121.02]
+	taking closest in separation (good signs for closest in sep)
+20/1406
+	desired propmot_ra, propmot_dec
+	 57.51 13.63
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.84997724  3.97960247] [ 57.5047      nan] [ 13.6304      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+21/1406
+	desired propmot_ra, propmot_dec
+	 68.59 -175.38
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 3.02655559  6.70933703] [ 68.5924  72.25  ] [-175.381 -176.25 ]
+	taking closest in separation (same as in PM)
+22/1406
+	desired propmot_ra, propmot_dec
+	 0.0 0.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 2.9127374   5.12041813] [ 72.25    nan] [-176.25     nan]
+	taking closest in separation b/c bad reference PM
+23/1406
+24/1406
+25/1406
+26/1406
+27/1406
+28/1406
+	desired propmot_ra, propmot_dec
+	 126.8 75.9
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 2.21703307  8.73623832] [ 126.784  155.24 ] [ 75.8685  71.25  ]
+	taking closest in separation (same as in PM)
+29/1406
+	desired propmot_ra, propmot_dec
+	 130.0 73.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 2.60814482  7.26426902] [ 155.24   126.784] [ 71.25    75.8685]
+	taking closest in separation (good signs for closest in sep)
+30/1406
+31/1406
+32/1406
+	desired propmot_ra, propmot_dec
+	 46.86 140.5
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 2.33924417  7.17828777] [ 46.8613      nan] [ 140.473      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+33/1406
+	desired propmot_ra, propmot_dec
+	 0.0 0.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.02286708  9.05021495] [     nan  46.8613] [     nan  140.473]
+	taking closest in separation b/c bad reference PM
+34/1406
+35/1406
+36/1406
+37/1406
+	desired propmot_ra, propmot_dec
+	 8.4 -10.1
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.18432077  3.56589737] [ 5.42956      nan] [-8.12711      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+38/1406
+	desired propmot_ra, propmot_dec
+	 0.0 0.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.44980277  4.12936495] [     nan  5.42956] [     nan -8.12711]
+	taking closest in separation b/c bad reference PM
+39/1406
+40/1406
+41/1406
+42/1406
+43/1406
+44/1406
+45/1406
+46/1406
+	desired propmot_ra, propmot_dec
+	 -130.0 -180.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 3.37711423  4.99390918] [-134.01     -1.8514] [-182.6         0.597895]
+	taking closest in separation (good signs for closest in sep)
+47/1406
+48/1406
+49/1406
+50/1406
+51/1406
+52/1406
+53/1406
+54/1406
+55/1406
+56/1406
+57/1406
+58/1406
+59/1406
+60/1406
+61/1406
+62/1406
+63/1406
+64/1406
+65/1406
+66/1406
+67/1406
+68/1406
+	desired propmot_ra, propmot_dec
+	 98.0 -61.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.74155221  7.21248413] [ 98.6112      nan] [-28.9658      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+69/1406
+	desired propmot_ra, propmot_dec
+	 117.0 -29.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.86727669  6.60176793] [ 105.281      nan] [-54.9061      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+70/1406
+71/1406
+72/1406
+	desired propmot_ra, propmot_dec
+	 175.0 -99.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 2.96939889  2.97461973  4.84819957] [  40.81  171.72     nan] [-200.5   -99.67     nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (good signs for closest in sep)
+73/1406
+74/1406
+75/1406
+76/1406
+77/1406
+78/1406
+79/1406
+80/1406
+81/1406
+82/1406
+83/1406
+84/1406
+	desired propmot_ra, propmot_dec
+	 46.6 -16.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.7155187   8.86154698] [ 46.5612  57.77  ] [-16.321 -61.51 ]
+	taking closest in separation (same as in PM)
+85/1406
+	desired propmot_ra, propmot_dec
+	 0.0 0.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.34564922  7.94142538] [ 57.77    46.5612] [-61.51  -16.321]
+	taking closest in separation b/c bad reference PM
+86/1406
+	desired propmot_ra, propmot_dec
+	 0.0 0.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.24437421  6.97885462] [ 57.77    46.5612] [-61.51  -16.321]
+	taking closest in separation b/c bad reference PM
+87/1406
+88/1406
+89/1406
+90/1406
+91/1406
+92/1406
+	desired propmot_ra, propmot_dec
+	 -175.8 -21.3
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.0304527   6.54097677] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+93/1406
+	desired propmot_ra, propmot_dec
+	 0.0 0.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.0304527   6.54097677] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c bad reference PM
+94/1406
+	desired propmot_ra, propmot_dec
+	 -49.86 -97.87
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.71149784  9.47022332] [-49.8636      nan] [-97.8657      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+95/1406
+	desired propmot_ra, propmot_dec
+	 0.0 0.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.71879324  5.41888502  9.81098678] [     nan      nan -49.8636] [     nan      nan -97.8657]
+	taking closest in separation b/c bad reference PM
+96/1406
+	desired propmot_ra, propmot_dec
+	 -21.0 -91.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.33609502  9.09939863] [-21.294     nan] [-90.8516      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+97/1406
+98/1406
+99/1406
+100/1406
+101/1406
+	desired propmot_ra, propmot_dec
+	 2.27 -86.13
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.31444133  6.53601832] [ 2.27378      nan] [-86.131     nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+102/1406
+	desired propmot_ra, propmot_dec
+	 0.0 0.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.42102855  6.61695733] [     nan  2.27378] [    nan -86.131]
+	taking closest in separation b/c bad reference PM
+103/1406
+104/1406
+105/1406
+106/1406
+107/1406
+108/1406
+109/1406
+110/1406
+	desired propmot_ra, propmot_dec
+	 8.0 -54.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.84361668  7.64363266] [ 8.44939      nan] [-54.0548      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+111/1406
+112/1406
+	desired propmot_ra, propmot_dec
+	 32.6 -68.9
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.25867056  6.51794627] [ 32.5946      nan] [-68.9463      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+113/1406
+114/1406
+115/1406
+116/1406
+117/1406
+118/1406
+119/1406
+120/1406
+121/1406
+122/1406
+123/1406
+124/1406
+125/1406
+126/1406
+127/1406
+128/1406
+129/1406
+130/1406
+	desired propmot_ra, propmot_dec
+	 111.9 -8.2
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.3647741   0.52903905] [ 111.74  112.  ] [-8.99 -9.  ]
+	taking closest in separation (same as in PM)
+131/1406
+	desired propmot_ra, propmot_dec
+	 0.0 0.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.3647741   0.52903905] [ 111.74  112.  ] [-8.99 -9.  ]
+	taking closest in separation b/c bad reference PM
+132/1406
+133/1406
+	desired propmot_ra, propmot_dec
+	 121.2 -22.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.34893793  2.19206927] [ 121.23     nan] [-22.01    nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+134/1406
+135/1406
+136/1406
+137/1406
+138/1406
+139/1406
+	desired propmot_ra, propmot_dec
+	 -36.88 146.69
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 2.12582024  7.67302798] [-36.88 -30.84] [ 146.69  140.78]
+	taking closest in separation (good signs for closest in sep)
+140/1406
+141/1406
+142/1406
+143/1406
+144/1406
+145/1406
+146/1406
+147/1406
+148/1406
+149/1406
+150/1406
+151/1406
+	desired propmot_ra, propmot_dec
+	 -180.7 0.4
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 2.74730824  9.00919757] [-180.698 -181.811] [ 0.449543 -4.48606 ]
+	taking closest in separation (same as in PM)
+152/1406
+153/1406
+	desired propmot_ra, propmot_dec
+	 230.0 21.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 3.51059454  3.51059454] [ 271.01  271.01] [ 54.99  54.99]
+	taking closest in separation (same as in PM)
+154/1406
+155/1406
+156/1406
+157/1406
+158/1406
+	desired propmot_ra, propmot_dec
+	 184.6 -61.78
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 2.81680917  8.54720938  9.5599742 ] [ 184.601      nan      nan] [-61.7814      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+159/1406
+	desired propmot_ra, propmot_dec
+	 183.0 -47.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 2.82203715  4.30348041] [ 186.388      nan] [-49.0807      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+160/1406
+161/1406
+162/1406
+163/1406
+164/1406
+165/1406
+166/1406
+	desired propmot_ra, propmot_dec
+	 152.5 -48.1
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 2.44383243  2.48378229  3.58649021  7.54440462] [ 152.53  150.93     nan     nan] [-48.1  -46.61    nan    nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (good signs for closest in sep)
+167/1406
+168/1406
+169/1406
+170/1406
+171/1406
+172/1406
+173/1406
+174/1406
+175/1406
+176/1406
+177/1406
+178/1406
+179/1406
+180/1406
+181/1406
+182/1406
+	desired propmot_ra, propmot_dec
+	 138.0 -54.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 2.26434568  4.55195523] [ 149.14     nan] [-49.66    nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+183/1406
+184/1406
+185/1406
+186/1406
+187/1406
+188/1406
+189/1406
+190/1406
+191/1406
+192/1406
+193/1406
+194/1406
+195/1406
+196/1406
+197/1406
+198/1406
+199/1406
+200/1406
+201/1406
+202/1406
+203/1406
+204/1406
+205/1406
+206/1406
+207/1406
+208/1406
+209/1406
+210/1406
+211/1406
+212/1406
+213/1406
+214/1406
+215/1406
+216/1406
+	desired propmot_ra, propmot_dec
+	 125.0 -26.5
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.92259235  3.65695166] [ 125.002      nan] [-26.4729      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+217/1406
+218/1406
+219/1406
+220/1406
+221/1406
+222/1406
+223/1406
+224/1406
+225/1406
+226/1406
+227/1406
+228/1406
+229/1406
+230/1406
+231/1406
+232/1406
+233/1406
+234/1406
+	desired propmot_ra, propmot_dec
+	 103.54 -37.87
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.6904105   9.13523456] [ 103.537      nan] [-37.8687      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+235/1406
+236/1406
+237/1406
+238/1406
+239/1406
+240/1406
+241/1406
+242/1406
+243/1406
+244/1406
+245/1406
+246/1406
+247/1406
+248/1406
+249/1406
+250/1406
+251/1406
+252/1406
+253/1406
+254/1406
+255/1406
+256/1406
+257/1406
+258/1406
+259/1406
+	desired propmot_ra, propmot_dec
+	 108.1 -19.7
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.53566749  5.63222673] [ 106.76     nan] [-19.07    nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+260/1406
+261/1406
+262/1406
+263/1406
+264/1406
+265/1406
+266/1406
+267/1406
+268/1406
+269/1406
+270/1406
+271/1406
+272/1406
+273/1406
+274/1406
+275/1406
+276/1406
+277/1406
+278/1406
+279/1406
+280/1406
+281/1406
+282/1406
+283/1406
+284/1406
+285/1406
+286/1406
+287/1406
+288/1406
+289/1406
+290/1406
+291/1406
+292/1406
+293/1406
+294/1406
+295/1406
+296/1406
+297/1406
+298/1406
+299/1406
+300/1406
+301/1406
+302/1406
+303/1406
+304/1406
+305/1406
+306/1406
+307/1406
+308/1406
+309/1406
+310/1406
+311/1406
+312/1406
+313/1406
+314/1406
+315/1406
+316/1406
+	desired propmot_ra, propmot_dec
+	 41.03 -25.96
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.77522091  6.61832138] [ 41.0317      nan] [-25.9598      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+317/1406
+318/1406
+319/1406
+320/1406
+321/1406
+322/1406
+323/1406
+324/1406
+325/1406
+326/1406
+327/1406
+328/1406
+329/1406
+330/1406
+331/1406
+332/1406
+333/1406
+334/1406
+335/1406
+336/1406
+337/1406
+338/1406
+339/1406
+340/1406
+341/1406
+342/1406
+343/1406
+344/1406
+345/1406
+	desired propmot_ra, propmot_dec
+	 74.4 -9.1
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.0409047   7.95927506] [ 76.   69.7] [-11.  -10.6]
+	taking closest in separation (good signs for closest in sep)
+346/1406
+	desired propmot_ra, propmot_dec
+	 70.0 -11.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.1080705   8.06926356] [ 69.7  76. ] [-10.6 -11. ]
+	taking closest in separation (same as in PM)
+347/1406
+	desired propmot_ra, propmot_dec
+	 68.23 -2.03
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.06748771  8.41656019] [ 68.2307      nan] [-2.02511      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+348/1406
+349/1406
+350/1406
+351/1406
+352/1406
+353/1406
+354/1406
+355/1406
+356/1406
+357/1406
+358/1406
+359/1406
+360/1406
+361/1406
+362/1406
+	desired propmot_ra, propmot_dec
+	 79.53 -67.68
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.40084872  6.4752846 ] [ 79.5269  79.74  ] [-67.6789 -67.27  ]
+	taking closest in separation (good signs for closest in sep)
+363/1406
+	desired propmot_ra, propmot_dec
+	 0.0 0.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.40541751  4.33323876] [ 79.74    79.5269] [-67.27   -67.6789]
+	taking closest in separation b/c bad reference PM
+364/1406
+365/1406
+366/1406
+367/1406
+368/1406
+369/1406
+	desired propmot_ra, propmot_dec
+	 46.4 -97.8
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.32269569  4.69529849] [ 67.99  56.43] [ 217.6  -116.57]
+	taking closest in PM magnitude (bad signs for closest in sep)
+370/1406
+	desired propmot_ra, propmot_dec
+	 0.0 0.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.32269569  4.69529849] [ 67.99  56.43] [ 217.6  -116.57]
+	taking closest in separation b/c bad reference PM
+371/1406
+372/1406
+373/1406
+374/1406
+375/1406
+	desired propmot_ra, propmot_dec
+	 24.2 -22.7
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.74643173  7.68506508] [ 24.2259      nan] [-22.697     nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+376/1406
+377/1406
+378/1406
+379/1406
+	desired propmot_ra, propmot_dec
+	 25.48 14.22
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.45410348  8.4554225 ] [ 25.4773      nan] [ 14.2215      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+380/1406
+381/1406
+382/1406
+383/1406
+384/1406
+385/1406
+386/1406
+387/1406
+	desired propmot_ra, propmot_dec
+	 -27.3 17.3
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.53251656  5.22472802] [-27.3036      nan] [ 17.2769      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+388/1406
+389/1406
+390/1406
+391/1406
+392/1406
+393/1406
+394/1406
+395/1406
+	desired propmot_ra, propmot_dec
+	 -65.0 -16.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.04949981  9.79741994] [     nan  3.26057] [     nan -5.23156]
+	caught at least one nan in matched PMs
+	taking closest in PM magnitude (bad signs for closest in sep)
+396/1406
+397/1406
+398/1406
+399/1406
+400/1406
+	desired propmot_ra, propmot_dec
+	 -66.0 -13.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.21878828  5.55588163] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+401/1406
+	desired propmot_ra, propmot_dec
+	 -68.0 -11.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.18424553  4.75477933] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+402/1406
+403/1406
+404/1406
+405/1406
+406/1406
+407/1406
+408/1406
+409/1406
+410/1406
+411/1406
+412/1406
+413/1406
+414/1406
+415/1406
+416/1406
+417/1406
+	desired propmot_ra, propmot_dec
+	 -63.0 -23.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.04878946  8.35136266] [-67.7531   -9.23407] [-21.2243    -0.751543]
+	taking closest in separation (good signs for closest in sep)
+418/1406
+	desired propmot_ra, propmot_dec
+	 0.0 0.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.56943183  7.19465555] [-67.7531   -9.23407] [-21.2243    -0.751543]
+	taking closest in separation b/c bad reference PM
+419/1406
+420/1406
+421/1406
+422/1406
+423/1406
+424/1406
+425/1406
+426/1406
+427/1406
+	desired propmot_ra, propmot_dec
+	 -53.0 -21.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.03369956  7.74781539] [-56.  nan] [-24.  nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+428/1406
+	desired propmot_ra, propmot_dec
+	 -45.0 -20.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.83536505  2.19454183] [-55.8666      nan] [-27.5782      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+429/1406
+	desired propmot_ra, propmot_dec
+	 0.0 0.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 1.06224396  8.73272247] [ nan -56.] [ nan -24.]
+	taking closest in separation b/c bad reference PM
+430/1406
+431/1406
+	desired propmot_ra, propmot_dec
+	 -11.9 -9.1
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.42802191  6.27537947] [-11.8908      nan] [-9.09679      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+432/1406
+433/1406
+434/1406
+435/1406
+436/1406
+437/1406
+438/1406
+439/1406
+440/1406
+441/1406
+442/1406
+443/1406
+444/1406
+445/1406
+446/1406
+447/1406
+448/1406
+449/1406
+450/1406
+451/1406
+452/1406
+453/1406
+454/1406
+455/1406
+456/1406
+457/1406
+458/1406
+459/1406
+460/1406
+461/1406
+462/1406
+463/1406
+464/1406
+465/1406
+466/1406
+467/1406
+468/1406
+469/1406
+470/1406
+471/1406
+472/1406
+473/1406
+474/1406
+475/1406
+476/1406
+477/1406
+478/1406
+479/1406
+	desired propmot_ra, propmot_dec
+	 -30.0 18.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.54872072  6.84307551  7.11193852  7.2731251 ] [-4.35996      nan      nan      nan] [ 20.5191      nan      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+480/1406
+481/1406
+482/1406
+483/1406
+	desired propmot_ra, propmot_dec
+	 -20.0 32.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.55639323  6.52793057] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+484/1406
+485/1406
+486/1406
+	desired propmot_ra, propmot_dec
+	 -33.0 25.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.64323777  9.91744398] [-30.8364      nan] [ 27.7478      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+487/1406
+488/1406
+489/1406
+490/1406
+491/1406
+492/1406
+493/1406
+	desired propmot_ra, propmot_dec
+	 9.0 -35.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.54693972  7.54119869] [ 5.5  nan] [-37.8   nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+494/1406
+495/1406
+496/1406
+497/1406
+498/1406
+499/1406
+500/1406
+501/1406
+	desired propmot_ra, propmot_dec
+	 8.0 -28.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.51921654  7.78965512  8.16768523] [ 10.9898      nan      nan] [-32.0388      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+502/1406
+503/1406
+504/1406
+505/1406
+506/1406
+507/1406
+508/1406
+509/1406
+510/1406
+511/1406
+512/1406
+513/1406
+	desired propmot_ra, propmot_dec
+	 4.0 -35.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.83241197  0.91205034] [  6.02  11.65] [-57.52 -52.8 ]
+	taking closest in separation (good signs for closest in sep)
+514/1406
+	desired propmot_ra, propmot_dec
+	 9.0 -27.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.70743931  9.12289892] [  5.51333 -27.4941 ] [ -4.99968000e+01  -3.45424000e-03]
+	taking closest in separation (good signs for closest in sep)
+515/1406
+516/1406
+517/1406
+518/1406
+519/1406
+520/1406
+521/1406
+	desired propmot_ra, propmot_dec
+	 3.0 -32.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.18531136  8.10864979] [-2.12961      nan] [-1.3976     nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+522/1406
+523/1406
+524/1406
+525/1406
+526/1406
+527/1406
+528/1406
+529/1406
+530/1406
+	desired propmot_ra, propmot_dec
+	 38.2 -4.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.60284985  4.98666002] [ 38.1534      nan] [-4.2524     nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+531/1406
+532/1406
+533/1406
+534/1406
+535/1406
+	desired propmot_ra, propmot_dec
+	 36.39 -3.66
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.58483195  6.96649915] [ 36.3904  37.4832] [-3.66534 -6.04188]
+	taking closest in separation (same as in PM)
+536/1406
+	desired propmot_ra, propmot_dec
+	 36.0 -3.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.59512847  6.01124335] [ 37.4832  36.3904] [-6.04188 -3.66534]
+	taking closest in separation (good signs for closest in sep)
+537/1406
+	desired propmot_ra, propmot_dec
+	 -42.0 3.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.6489695   7.50526687  9.38874947] [-55.6571 -13.512       nan] [ 6.23664 -4.1504       nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (good signs for closest in sep)
+538/1406
+539/1406
+540/1406
+541/1406
+542/1406
+543/1406
+544/1406
+	desired propmot_ra, propmot_dec
+	 -38.0 -8.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.7221786   5.01588291] [-39.6043      nan] [-8.25865      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+545/1406
+546/1406
+547/1406
+548/1406
+	desired propmot_ra, propmot_dec
+	 -41.0 -6.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.64675415  7.80901579] [-40.9567      nan] [-5.97312      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+549/1406
+550/1406
+551/1406
+552/1406
+	desired propmot_ra, propmot_dec
+	 -2.0 4.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.6676689   3.75945388] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+553/1406
+554/1406
+555/1406
+556/1406
+557/1406
+	desired propmot_ra, propmot_dec
+	 -35.0 -7.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.47872727  6.11015819] [-31.1681      nan] [-12.7706      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+558/1406
+559/1406
+560/1406
+561/1406
+562/1406
+563/1406
+	desired propmot_ra, propmot_dec
+	 -39.0 -8.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.57512149  8.54751734  9.12236303] [-31.044  -14.3464      nan] [ -6.21868 -11.9322        nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+564/1406
+565/1406
+	desired propmot_ra, propmot_dec
+	 -38.7 -12.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.48967217  6.57414625] [-38.6598      nan] [-12.033     nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+566/1406
+567/1406
+	desired propmot_ra, propmot_dec
+	 4.0 -34.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.18528887  3.82621118] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+568/1406
+	desired propmot_ra, propmot_dec
+	 11.0 -37.2
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.05073731  4.68683874] [ 7.6  nan] [-39.8   nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+569/1406
+570/1406
+571/1406
+572/1406
+573/1406
+574/1406
+575/1406
+576/1406
+577/1406
+578/1406
+579/1406
+	desired propmot_ra, propmot_dec
+	 -27.33 3.24
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.02890372  3.33554603] [-27.3318      nan] [ 3.24117      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+580/1406
+581/1406
+582/1406
+	desired propmot_ra, propmot_dec
+	 -34.0 1.8
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.50654814  3.76165099  8.91903322] [-34.0942      nan      nan] [ 1.75261      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+583/1406
+584/1406
+	desired propmot_ra, propmot_dec
+	 -24.0 3.5
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.44286822  8.31121735] [-23.7245      nan] [ 3.47029      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+585/1406
+586/1406
+587/1406
+588/1406
+589/1406
+	desired propmot_ra, propmot_dec
+	 -36.0 -7.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.50568705  6.85085856  8.47809422] [-36.1524      nan      nan] [-6.68855      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+590/1406
+591/1406
+	desired propmot_ra, propmot_dec
+	 -37.6 -10.4
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.46587126  3.12121255  9.94886367] [-37.5881      nan      nan] [-10.3901      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+592/1406
+	desired propmot_ra, propmot_dec
+	 -37.0 -9.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.54067815  8.60765538] [-36.9154      nan] [-9.29617      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+593/1406
+	desired propmot_ra, propmot_dec
+	 -34.0 -11.2
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.64641162  7.92796822] [-33.6442      nan] [-11.2   nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+594/1406
+	desired propmot_ra, propmot_dec
+	 -38.1 -10.4
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.61229471  7.02098036] [-38.0918      nan] [-10.4059      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+595/1406
+596/1406
+597/1406
+598/1406
+599/1406
+	desired propmot_ra, propmot_dec
+	 -38.0 -7.4
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.03210109  2.58611387] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+600/1406
+	desired propmot_ra, propmot_dec
+	 -36.4 -7.3
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.70265766  9.04424376  9.059156  ] [-36.3496      nan      nan] [-7.25282      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+601/1406
+602/1406
+603/1406
+604/1406
+	desired propmot_ra, propmot_dec
+	 -34.0 -10.9
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.58734352  6.84811411] [-34.3934      nan] [-10.8726      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+605/1406
+606/1406
+	desired propmot_ra, propmot_dec
+	 -37.7 -11.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.48415796  7.21442164  9.37070312] [-37.661     nan     nan] [-10.9521      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+607/1406
+608/1406
+	desired propmot_ra, propmot_dec
+	 -29.0 -10.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.5158129   8.31644942] [-29.4209      nan] [-10.1863      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+609/1406
+	desired propmot_ra, propmot_dec
+	 -36.0 -11.2
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.58914921  9.17082069] [-36.2266 -29.7935] [-11.1728  24.1241]
+	taking closest in separation (same as in PM)
+610/1406
+611/1406
+612/1406
+	desired propmot_ra, propmot_dec
+	 -37.3 -11.37
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.06071027  8.04162237] [-37.3033      nan] [-11.3722      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+613/1406
+	desired propmot_ra, propmot_dec
+	 -37.8 -11.2
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.64861875  9.8053048   9.87936767] [-37.7628      nan      nan] [-11.1951      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+614/1406
+	desired propmot_ra, propmot_dec
+	 -34.0 -15.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.4706443   9.59496931] [-33.5951      nan] [-14.6231      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+615/1406
+616/1406
+	desired propmot_ra, propmot_dec
+	 -39.0 -14.6
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.63211671  7.84139346] [-39.0905      nan] [-14.5841      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+617/1406
+618/1406
+619/1406
+620/1406
+621/1406
+622/1406
+623/1406
+624/1406
+625/1406
+	desired propmot_ra, propmot_dec
+	 -34.0 -17.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.68935174  6.9722957   8.38065991] [-33.9137      nan      nan] [-17.0379      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+626/1406
+627/1406
+628/1406
+	desired propmot_ra, propmot_dec
+	 -28.9 -8.4
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.02706032  9.8084547 ] [-30.2   nan] [-4.3  nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+629/1406
+630/1406
+631/1406
+632/1406
+633/1406
+634/1406
+635/1406
+636/1406
+637/1406
+638/1406
+	desired propmot_ra, propmot_dec
+	 -34.0 -18.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.58196056  4.63675616  7.563404  ] [-33.5318      nan      nan] [-17.5313      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+639/1406
+640/1406
+641/1406
+642/1406
+643/1406
+644/1406
+645/1406
+	desired propmot_ra, propmot_dec
+	 -27.0 -14.8
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.39318806  9.6303522 ] [-26.9517      nan] [-14.7607      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+646/1406
+647/1406
+	desired propmot_ra, propmot_dec
+	 -29.7 -17.7
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.05327992  9.4490399 ] [-31.9   nan] [-19.4   nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+648/1406
+649/1406
+650/1406
+	desired propmot_ra, propmot_dec
+	 -39.0 -26.9
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.62296239  6.42330883] [-39.2161      nan] [-26.9322      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+651/1406
+652/1406
+653/1406
+654/1406
+655/1406
+	desired propmot_ra, propmot_dec
+	 -34.7 -23.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.58315049  8.90065679] [-34.7292      nan] [-22.5861      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+656/1406
+657/1406
+658/1406
+659/1406
+660/1406
+661/1406
+662/1406
+663/1406
+664/1406
+	desired propmot_ra, propmot_dec
+	 12.7 -22.5
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.64426944  8.30968737] [ 12.6556      nan] [-22.4517      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+665/1406
+666/1406
+	desired propmot_ra, propmot_dec
+	 16.0 -13.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.26528913  5.22492384] [ 15.9344      nan] [-12.9746      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+667/1406
+668/1406
+669/1406
+670/1406
+671/1406
+672/1406
+673/1406
+674/1406
+675/1406
+	desired propmot_ra, propmot_dec
+	 13.0 2.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.03480612  5.81270189] [ 21.0927      nan] [ 8.72107      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+676/1406
+677/1406
+678/1406
+679/1406
+680/1406
+681/1406
+682/1406
+683/1406
+684/1406
+685/1406
+686/1406
+687/1406
+	desired propmot_ra, propmot_dec
+	 3.0 -26.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.03415491  8.84501588] [ 11.5578      nan] [-21.1288      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+688/1406
+689/1406
+690/1406
+691/1406
+692/1406
+693/1406
+694/1406
+695/1406
+696/1406
+697/1406
+	desired propmot_ra, propmot_dec
+	 6.0 -9.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.25560842  6.83990371] [-6.18793      nan] [-18.3394      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+698/1406
+699/1406
+700/1406
+701/1406
+702/1406
+703/1406
+704/1406
+705/1406
+706/1406
+707/1406
+708/1406
+709/1406
+710/1406
+711/1406
+712/1406
+713/1406
+	desired propmot_ra, propmot_dec
+	 12.6 -17.6
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.06381278  6.00047205] [ 12.6409      nan] [-17.5522      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+714/1406
+715/1406
+716/1406
+717/1406
+	desired propmot_ra, propmot_dec
+	 10.0 -19.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.09222305  6.27580393] [ 11.1568      nan] [-19.5875      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+718/1406
+719/1406
+720/1406
+721/1406
+722/1406
+723/1406
+724/1406
+725/1406
+726/1406
+727/1406
+728/1406
+729/1406
+730/1406
+731/1406
+732/1406
+733/1406
+734/1406
+735/1406
+736/1406
+737/1406
+	desired propmot_ra, propmot_dec
+	 1.0 -18.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.10356139  9.19033195] [ 4.27475      nan] [-2.76044      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+738/1406
+739/1406
+	desired propmot_ra, propmot_dec
+	 -7.0 -15.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.31681587  9.23164966] [ -6.78085  20.6844 ] [-15.0043 -13.3599]
+	taking closest in separation (same as in PM)
+740/1406
+741/1406
+742/1406
+743/1406
+	desired propmot_ra, propmot_dec
+	 15.0 -20.9
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.42918292  9.33432594] [ 14.6611      nan] [-20.8544      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+744/1406
+745/1406
+746/1406
+747/1406
+748/1406
+749/1406
+750/1406
+751/1406
+752/1406
+	desired propmot_ra, propmot_dec
+	 -1.7 -21.7
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.41618497  6.6511092 ] [-1.74345      nan] [-21.7378      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+753/1406
+754/1406
+755/1406
+756/1406
+	desired propmot_ra, propmot_dec
+	 9.0 -12.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.07074542  6.47999495] [-3.54009      nan] [-12.8999      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+757/1406
+	desired propmot_ra, propmot_dec
+	 15.0 -34.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.07931589  7.07916321] [ 7.17088      nan] [-31.4366      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+758/1406
+	desired propmot_ra, propmot_dec
+	 -4.0 -20.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.29492201  8.32983764] [-3.8376     nan] [-20.1455      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+759/1406
+760/1406
+761/1406
+762/1406
+763/1406
+764/1406
+765/1406
+766/1406
+767/1406
+768/1406
+769/1406
+770/1406
+771/1406
+	desired propmot_ra, propmot_dec
+	 -1.0 -10.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.23008846  9.71865029] [-0.80034      nan] [-9.47418      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+772/1406
+773/1406
+	desired propmot_ra, propmot_dec
+	 2.0 -19.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.31095362  6.60966707] [ 1.8  nan] [-19.2   nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+774/1406
+	desired propmot_ra, propmot_dec
+	 11.0 -23.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.46680071  5.21939222  9.92178341] [ 6.28009      nan      nan] [-23.3752      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+775/1406
+776/1406
+777/1406
+778/1406
+779/1406
+780/1406
+781/1406
+782/1406
+783/1406
+784/1406
+	desired propmot_ra, propmot_dec
+	 11.0 -31.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.26252526  6.3148555 ] [ 9.98964      nan] [-29.5633      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+785/1406
+	desired propmot_ra, propmot_dec
+	 9.0 -20.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.2170656   9.96234584] [ 5.19188 -2.02543] [-17.7697   -5.77274]
+	taking closest in separation (good signs for closest in sep)
+786/1406
+787/1406
+	desired propmot_ra, propmot_dec
+	 3.0 -8.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.22825931  8.75292985] [  3.36235  16.6525 ] [-19.1838 -27.4993]
+	taking closest in separation (same as in PM)
+788/1406
+789/1406
+	desired propmot_ra, propmot_dec
+	 -6.0 -30.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.63219934  9.76091479] [ 6.27858  3.8623 ] [-38.2615   -2.81161]
+	taking closest in PM magnitude (bad signs for closest in sep)
+790/1406
+791/1406
+	desired propmot_ra, propmot_dec
+	 5.0 -48.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.38849174  4.70848187] [ 2.91477  7.10885] [-34.1659 -15.9201]
+	taking closest in separation (good signs for closest in sep)
+792/1406
+	desired propmot_ra, propmot_dec
+	 -15.94 14.23
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.78888215  2.79403882] [-15.9453      nan] [ 14.2351      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+793/1406
+794/1406
+	desired propmot_ra, propmot_dec
+	 -16.16 18.08
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.3344057   9.54966883] [-16.1558      nan] [ 18.0775      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+795/1406
+796/1406
+	desired propmot_ra, propmot_dec
+	 -14.74 14.45
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.30337343  5.36525835] [-14.7429      nan] [ 14.4511      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+797/1406
+798/1406
+799/1406
+800/1406
+801/1406
+	desired propmot_ra, propmot_dec
+	 -16.9 13.2
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.05137549  8.68764358] [-17.2   nan] [ 13.1   nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+802/1406
+803/1406
+804/1406
+805/1406
+806/1406
+807/1406
+808/1406
+809/1406
+810/1406
+811/1406
+812/1406
+813/1406
+814/1406
+815/1406
+	desired propmot_ra, propmot_dec
+	 -19.8 -17.2
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.04122614  5.09486901] [-20.8   nan] [-18.1   nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+816/1406
+817/1406
+	desired propmot_ra, propmot_dec
+	 -20.0 -23.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.49746644  6.96447333] [-20.2145      nan] [-22.8947      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+818/1406
+	desired propmot_ra, propmot_dec
+	 -25.0 -22.8
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.57885867  9.77416832] [-24.4668      nan] [-22.7755      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+819/1406
+820/1406
+821/1406
+822/1406
+823/1406
+824/1406
+825/1406
+	desired propmot_ra, propmot_dec
+	 -25.0 -25.1
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.55024044  7.13569192] [-25.3121      nan] [-25.1291      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+826/1406
+	desired propmot_ra, propmot_dec
+	 -21.0 -21.6
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.39418038  9.91807038] [-21.3899      nan] [-21.5576      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+827/1406
+	desired propmot_ra, propmot_dec
+	 -21.46 -19.54
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.04800761  9.27144843] [-21.4562      nan] [-19.5396      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+828/1406
+829/1406
+	desired propmot_ra, propmot_dec
+	 -24.0 -26.1
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.59572015  9.29679381] [-23.9626      nan] [-26.0845      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+830/1406
+831/1406
+832/1406
+	desired propmot_ra, propmot_dec
+	 -18.7 -22.5
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.04631455  8.62912605] [-18.2   nan] [-21.9   nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+833/1406
+834/1406
+835/1406
+836/1406
+837/1406
+838/1406
+839/1406
+840/1406
+841/1406
+842/1406
+843/1406
+844/1406
+845/1406
+846/1406
+847/1406
+848/1406
+849/1406
+850/1406
+851/1406
+852/1406
+853/1406
+854/1406
+855/1406
+	desired propmot_ra, propmot_dec
+	 -17.0 -22.1
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.49755558  8.73424166] [-16.6501      nan] [-22.1273      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+856/1406
+857/1406
+	desired propmot_ra, propmot_dec
+	 -19.0 -30.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.42194438  6.36473783] [-19.0194      nan] [-29.5461      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+858/1406
+859/1406
+860/1406
+	desired propmot_ra, propmot_dec
+	 -28.0 -32.9
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.6550258   9.71667098] [-27.8238      nan] [-32.86    nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+861/1406
+	desired propmot_ra, propmot_dec
+	 -15.6 -21.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.03447375  5.63145846] [-40.3   nan] [-11.4   nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+862/1406
+863/1406
+864/1406
+865/1406
+866/1406
+867/1406
+868/1406
+869/1406
+870/1406
+871/1406
+872/1406
+873/1406
+874/1406
+875/1406
+876/1406
+877/1406
+878/1406
+879/1406
+880/1406
+881/1406
+882/1406
+883/1406
+884/1406
+885/1406
+886/1406
+887/1406
+888/1406
+889/1406
+890/1406
+891/1406
+	desired propmot_ra, propmot_dec
+	 -16.5 -26.31
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.07423938  8.66177255] [-16.503     nan] [-26.3087      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+892/1406
+893/1406
+894/1406
+895/1406
+896/1406
+	desired propmot_ra, propmot_dec
+	 -17.0 -30.4
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.44075207  5.4989285 ] [-16.917     nan] [-30.3845      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+897/1406
+	desired propmot_ra, propmot_dec
+	 -19.0 -32.2
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.89968218  8.73385157  9.46132887  9.74689428] [-19.4435      nan      nan      nan] [-32.1599      nan      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+898/1406
+899/1406
+	desired propmot_ra, propmot_dec
+	 -15.0 -23.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.41772921  6.49298204  9.12260618] [-15.1769      nan      nan] [-23.4063      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+900/1406
+901/1406
+	desired propmot_ra, propmot_dec
+	 -11.4 -21.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.07107917  6.70060379  9.53583545] [-11.6   nan   nan] [-20.8   nan   nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+902/1406
+	desired propmot_ra, propmot_dec
+	 -17.0 -45.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.67292906  5.83887526] [-16.7119      nan] [-44.8967      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+903/1406
+904/1406
+905/1406
+906/1406
+907/1406
+	desired propmot_ra, propmot_dec
+	 -10.0 -24.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.09014221  9.38828077] [-4.0536  -2.25251] [-25.5318  -4.9599]
+	taking closest in separation (good signs for closest in sep)
+908/1406
+909/1406
+	desired propmot_ra, propmot_dec
+	 -11.0 -34.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.00767834  6.12070286] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+910/1406
+911/1406
+912/1406
+913/1406
+	desired propmot_ra, propmot_dec
+	 3.0 -21.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.09416834  4.2006697 ] [ 1.63646      nan] [-26.9369      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+914/1406
+	desired propmot_ra, propmot_dec
+	 -12.0 -28.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.0453359   7.10696923] [-5.315    nan] [-22.8914      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+915/1406
+916/1406
+917/1406
+918/1406
+919/1406
+	desired propmot_ra, propmot_dec
+	 5.0 -18.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.07495626  2.8586103 ] [-0.154582       nan] [-23.542     nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+920/1406
+921/1406
+922/1406
+923/1406
+	desired propmot_ra, propmot_dec
+	 -9.0 -23.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.06472619  5.26402191  9.73880147] [-17.8747      nan      nan] [-13.4114      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+924/1406
+925/1406
+926/1406
+927/1406
+928/1406
+929/1406
+930/1406
+931/1406
+932/1406
+	desired propmot_ra, propmot_dec
+	 -9.0 -19.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [  2.27987318e-03   7.86350982e+00] [-2.2062     nan] [-22.0901      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+933/1406
+934/1406
+935/1406
+	desired propmot_ra, propmot_dec
+	 -4.0 -26.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.05223115  8.77411208] [     nan -1.01658] [     nan  7.42237]
+	caught at least one nan in matched PMs
+	taking closest in PM magnitude (bad signs for closest in sep)
+936/1406
+937/1406
+	desired propmot_ra, propmot_dec
+	 -8.0 -24.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.05044434  5.03723984] [-8.1716     nan] [-35.3227      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+938/1406
+939/1406
+940/1406
+941/1406
+942/1406
+	desired propmot_ra, propmot_dec
+	 -3.0 -30.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.07148202  3.50872921  5.59602163  9.60080948] [ nan  nan  nan  nan] [ nan  nan  nan  nan]
+	taking closest in separation b/c matched PMs all nan
+943/1406
+944/1406
+	desired propmot_ra, propmot_dec
+	 -16.0 -40.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.03795573  9.69357876] [-3.52961      nan] [-30.505     nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+945/1406
+946/1406
+947/1406
+948/1406
+949/1406
+950/1406
+951/1406
+	desired propmot_ra, propmot_dec
+	 -16.0 -34.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.07427316  9.02372848] [-8.25282 -4.95814] [-29.9137 -31.7935]
+	taking closest in separation (same as in PM)
+952/1406
+	desired propmot_ra, propmot_dec
+	 -11.0 -39.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.03394751  9.01359094] [-4.95814 -8.25282] [-31.7935 -29.9137]
+	taking closest in separation (good signs for closest in sep)
+953/1406
+954/1406
+955/1406
+956/1406
+957/1406
+958/1406
+959/1406
+960/1406
+961/1406
+962/1406
+963/1406
+	desired propmot_ra, propmot_dec
+	 -6.0 -29.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.04597698  7.45256939] [-6.08   nan] [-26.6166      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+964/1406
+	desired propmot_ra, propmot_dec
+	 -4.0 -18.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.05885179  4.64271017] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+965/1406
+	desired propmot_ra, propmot_dec
+	 -13.0 -26.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.062147    9.96823719] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+966/1406
+967/1406
+	desired propmot_ra, propmot_dec
+	 -13.0 -23.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.01009201  5.48366625] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+968/1406
+969/1406
+970/1406
+971/1406
+972/1406
+	desired propmot_ra, propmot_dec
+	 -6.0 -35.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.06269823  5.10668337] [-12.8455      nan] [-26.6523      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+973/1406
+974/1406
+975/1406
+976/1406
+977/1406
+978/1406
+979/1406
+980/1406
+981/1406
+982/1406
+983/1406
+984/1406
+	desired propmot_ra, propmot_dec
+	 -9.0 -25.5
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.0473455   6.17095876] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+985/1406
+986/1406
+	desired propmot_ra, propmot_dec
+	 -2.0 -37.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.06762388  6.2042305 ] [-4.47286      nan] [-28.9272      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+987/1406
+988/1406
+989/1406
+990/1406
+991/1406
+992/1406
+993/1406
+994/1406
+995/1406
+996/1406
+997/1406
+998/1406
+	desired propmot_ra, propmot_dec
+	 -1.4 -23.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.32083067  2.74877281] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+999/1406
+1000/1406
+1001/1406
+	desired propmot_ra, propmot_dec
+	 -7.0 -33.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.06050615  3.74039906] [ 0.587765       nan] [-38.7076      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1002/1406
+	desired propmot_ra, propmot_dec
+	 -2.0 -26.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.0664      5.16714701] [-6.28657      nan] [-23.0658      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1003/1406
+1004/1406
+1005/1406
+1006/1406
+1007/1406
+1008/1406
+1009/1406
+1010/1406
+	desired propmot_ra, propmot_dec
+	 -12.2 -20.8
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.1800851   3.88047536] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+1011/1406
+1012/1406
+1013/1406
+1014/1406
+1015/1406
+	desired propmot_ra, propmot_dec
+	 -14.6 -21.6
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.05714604  1.3219906   7.08581639] [ nan  nan  nan] [ nan  nan  nan]
+	taking closest in separation b/c matched PMs all nan
+1016/1406
+1017/1406
+1018/1406
+1019/1406
+1020/1406
+1021/1406
+1022/1406
+1023/1406
+1024/1406
+1025/1406
+	desired propmot_ra, propmot_dec
+	 -0.0 -28.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.03305534  7.7992282 ] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+1026/1406
+1027/1406
+1028/1406
+	desired propmot_ra, propmot_dec
+	 0.0 -26.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.10432771  7.42438275] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+1029/1406
+1030/1406
+1031/1406
+	desired propmot_ra, propmot_dec
+	 -4.0 -11.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.04887399  3.42312092  9.90588105] [-7.35829      nan  2.98524] [-17.0653      nan -26.1146]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1032/1406
+1033/1406
+	desired propmot_ra, propmot_dec
+	 -2.0 -13.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.05355906  8.8674767   9.86735302] [ 2.98524      nan -7.35829] [-26.1146      nan -17.0653]
+	caught at least one nan in matched PMs
+	taking closest in PM magnitude (bad signs for closest in sep)
+1034/1406
+	desired propmot_ra, propmot_dec
+	 -7.0 -25.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.04535452  7.04973326] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+1035/1406
+1036/1406
+1037/1406
+1038/1406
+1039/1406
+1040/1406
+	desired propmot_ra, propmot_dec
+	 1.0 -28.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.06822825  4.01272774] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+1041/1406
+1042/1406
+1043/1406
+1044/1406
+1045/1406
+1046/1406
+1047/1406
+	desired propmot_ra, propmot_dec
+	 -10.0 -29.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.05865505  0.21127553] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+1048/1406
+1049/1406
+1050/1406
+1051/1406
+1052/1406
+1053/1406
+1054/1406
+1055/1406
+1056/1406
+1057/1406
+1058/1406
+1059/1406
+1060/1406
+1061/1406
+1062/1406
+1063/1406
+1064/1406
+	desired propmot_ra, propmot_dec
+	 2.0 -30.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.05576945  7.76331279] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+1065/1406
+	desired propmot_ra, propmot_dec
+	 11.0 -28.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.07798824  6.91958265] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+1066/1406
+	desired propmot_ra, propmot_dec
+	 -19.0 -21.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.07029743  7.05372105] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+1067/1406
+	desired propmot_ra, propmot_dec
+	 -21.0 -13.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.01239082  3.63697589] [-29.5253      nan] [-17.3187      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1068/1406
+1069/1406
+1070/1406
+1071/1406
+1072/1406
+1073/1406
+1074/1406
+1075/1406
+	desired propmot_ra, propmot_dec
+	 -7.0 -21.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.03305718  6.95749101] [ nan  nan] [ nan  nan]
+	taking closest in separation b/c matched PMs all nan
+1076/1406
+	desired propmot_ra, propmot_dec
+	 -11.0 -11.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.04038266  5.95684407] [-8.26992      nan] [-8.51472      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1077/1406
+1078/1406
+1079/1406
+1080/1406
+1081/1406
+	desired propmot_ra, propmot_dec
+	 -18.0 -21.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.06006836  6.87090203] [-13.7001      nan] [-25.4812      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1082/1406
+1083/1406
+1084/1406
+1085/1406
+1086/1406
+1087/1406
+1088/1406
+1089/1406
+	desired propmot_ra, propmot_dec
+	 -18.0 -27.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.48216067  6.67569321  7.57155128] [-17.6622      nan      nan] [-26.5466      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1090/1406
+1091/1406
+1092/1406
+	desired propmot_ra, propmot_dec
+	 -17.0 -23.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.52818327  5.51781133] [-17.0162      nan] [-22.9882      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1093/1406
+1094/1406
+1095/1406
+1096/1406
+1097/1406
+1098/1406
+1099/1406
+1100/1406
+	desired propmot_ra, propmot_dec
+	 -13.69 -22.74
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.07686685  7.99407006] [-13.6869      nan] [-22.7368      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1101/1406
+1102/1406
+1103/1406
+1104/1406
+1105/1406
+1106/1406
+1107/1406
+1108/1406
+1109/1406
+1110/1406
+	desired propmot_ra, propmot_dec
+	 -12.9 -20.9
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.47764726  7.88374169] [-12.8621      nan] [-20.8586      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1111/1406
+1112/1406
+1113/1406
+1114/1406
+1115/1406
+1116/1406
+1117/1406
+1118/1406
+1119/1406
+1120/1406
+1121/1406
+1122/1406
+	desired propmot_ra, propmot_dec
+	 -18.0 -32.1
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.48798628  9.84345791] [-17.5548      nan] [-32.1016      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1123/1406
+1124/1406
+1125/1406
+1126/1406
+1127/1406
+1128/1406
+1129/1406
+1130/1406
+1131/1406
+1132/1406
+1133/1406
+1134/1406
+1135/1406
+1136/1406
+1137/1406
+1138/1406
+1139/1406
+	desired propmot_ra, propmot_dec
+	 -6.0 -27.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.48577977  6.41748252] [-5.91977      nan] [-23.688     nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1140/1406
+1141/1406
+1142/1406
+1143/1406
+	desired propmot_ra, propmot_dec
+	 -7.3 -18.1
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.32472435  8.38351428] [-17.0165      nan] [-23.7837      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1144/1406
+	desired propmot_ra, propmot_dec
+	 -11.0 -23.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.40748303  4.50208333  9.69486451] [-10.8037      nan      nan] [-22.9932      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1145/1406
+1146/1406
+1147/1406
+1148/1406
+1149/1406
+1150/1406
+1151/1406
+1152/1406
+1153/1406
+1154/1406
+1155/1406
+1156/1406
+1157/1406
+	desired propmot_ra, propmot_dec
+	 -9.0 -22.4
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.26478767  8.76223366] [-8.4809     nan] [-22.3744      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1158/1406
+1159/1406
+	desired propmot_ra, propmot_dec
+	 -9.4 -21.4
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.49574612  8.97011756] [-9.43707      nan] [-21.3691      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1160/1406
+	desired propmot_ra, propmot_dec
+	 -13.0 -21.9
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.32641696  8.96733835] [-12.6117      nan] [-21.9151      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1161/1406
+1162/1406
+1163/1406
+1164/1406
+1165/1406
+	desired propmot_ra, propmot_dec
+	 -14.68 -27.75
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.05600076  6.30363059] [-14.7 -16.2] [-26.4 -32.9]
+	taking closest in separation (same as in PM)
+1166/1406
+	desired propmot_ra, propmot_dec
+	 -11.0 -27.1
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.47259133  6.03193407] [-10.934     nan] [-27.0867      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1167/1406
+1168/1406
+1169/1406
+	desired propmot_ra, propmot_dec
+	 -6.0 -23.9
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.48315486  9.69962301] [-5.87358      nan] [-23.9272      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1170/1406
+1171/1406
+1172/1406
+1173/1406
+1174/1406
+1175/1406
+1176/1406
+1177/1406
+1178/1406
+1179/1406
+1180/1406
+1181/1406
+1182/1406
+1183/1406
+	desired propmot_ra, propmot_dec
+	 21.4 -44.82
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.69157207  3.1880247 ] [ 21.3914      nan] [-44.8169      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1184/1406
+1185/1406
+	desired propmot_ra, propmot_dec
+	 20.29 -43.61
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.7267399   9.45497328] [ 20.2913      nan] [-43.6056      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1186/1406
+1187/1406
+	desired propmot_ra, propmot_dec
+	 21.2 -43.7
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.74351133  9.02121788] [ 21.2438      nan] [-43.681     nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1188/1406
+1189/1406
+	desired propmot_ra, propmot_dec
+	 23.0 -44.4
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.63872626  8.16315941] [ 23.2725      nan] [-44.3938      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1190/1406
+1191/1406
+1192/1406
+1193/1406
+1194/1406
+1195/1406
+1196/1406
+1197/1406
+1198/1406
+1199/1406
+1200/1406
+1201/1406
+1202/1406
+1203/1406
+1204/1406
+1205/1406
+1206/1406
+1207/1406
+1208/1406
+	desired propmot_ra, propmot_dec
+	 20.5 -41.7
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.67783398  9.56831117] [ 20.4528      nan] [-41.7099      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1209/1406
+1210/1406
+	desired propmot_ra, propmot_dec
+	 19.7 -45.5
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.70044444  3.54088996] [ 19.7197      nan] [-45.4812      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1211/1406
+1212/1406
+1213/1406
+1214/1406
+1215/1406
+1216/1406
+1217/1406
+1218/1406
+1219/1406
+	desired propmot_ra, propmot_dec
+	 19.7 -45.8
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.77717848  7.3365415 ] [ 19.7303      nan] [-45.8053      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1220/1406
+1221/1406
+1222/1406
+1223/1406
+1224/1406
+1225/1406
+1226/1406
+1227/1406
+1228/1406
+1229/1406
+1230/1406
+1231/1406
+	desired propmot_ra, propmot_dec
+	 25.6 -45.5
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.76395526  3.63031275] [ 25.6166      nan] [-45.5203      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1232/1406
+1233/1406
+1234/1406
+1235/1406
+1236/1406
+1237/1406
+1238/1406
+1239/1406
+1240/1406
+1241/1406
+1242/1406
+1243/1406
+1244/1406
+	desired propmot_ra, propmot_dec
+	 19.7 -45.8
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.82263865  5.38940522  9.56843461] [ 19.7392      nan      nan] [-45.7602      nan      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1245/1406
+1246/1406
+1247/1406
+1248/1406
+1249/1406
+1250/1406
+1251/1406
+1252/1406
+1253/1406
+1254/1406
+1255/1406
+1256/1406
+1257/1406
+1258/1406
+1259/1406
+1260/1406
+1261/1406
+	desired propmot_ra, propmot_dec
+	 20.02 -45.95
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.79979246  8.25490747] [ 20.0247      nan] [-45.9491      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1262/1406
+1263/1406
+1264/1406
+1265/1406
+1266/1406
+1267/1406
+1268/1406
+1269/1406
+1270/1406
+1271/1406
+1272/1406
+1273/1406
+1274/1406
+1275/1406
+1276/1406
+1277/1406
+	desired propmot_ra, propmot_dec
+	 20.2 -46.8
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.65939633  8.57992023] [ 20.1572      nan] [-46.764     nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1278/1406
+1279/1406
+	desired propmot_ra, propmot_dec
+	 19.4 -46.4
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.83867768  5.19908697] [ 19.4076      nan] [-46.39    nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1280/1406
+1281/1406
+1282/1406
+1283/1406
+1284/1406
+1285/1406
+1286/1406
+1287/1406
+1288/1406
+1289/1406
+1290/1406
+1291/1406
+	desired propmot_ra, propmot_dec
+	 18.5 -45.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.86293904  4.68594033] [ 18.4806      nan] [-44.9795      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1292/1406
+1293/1406
+1294/1406
+1295/1406
+1296/1406
+	desired propmot_ra, propmot_dec
+	 18.9 -43.8
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.8239031   6.71501032] [ 18.8542      nan] [-43.757     nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1297/1406
+1298/1406
+1299/1406
+1300/1406
+1301/1406
+1302/1406
+1303/1406
+1304/1406
+1305/1406
+1306/1406
+1307/1406
+1308/1406
+1309/1406
+	desired propmot_ra, propmot_dec
+	 20.8 -46.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.87954033  7.44103019] [ 20.828     nan] [-45.9936      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1310/1406
+1311/1406
+1312/1406
+1313/1406
+1314/1406
+1315/1406
+1316/1406
+1317/1406
+1318/1406
+1319/1406
+1320/1406
+1321/1406
+1322/1406
+1323/1406
+1324/1406
+1325/1406
+1326/1406
+1327/1406
+1328/1406
+1329/1406
+1330/1406
+1331/1406
+1332/1406
+1333/1406
+1334/1406
+1335/1406
+1336/1406
+1337/1406
+1338/1406
+1339/1406
+	desired propmot_ra, propmot_dec
+	 19.0 -45.9
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.59462572  4.82927846] [ 19.3966      nan] [-45.8914      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1340/1406
+	desired propmot_ra, propmot_dec
+	 21.0 -46.4
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.79986031  6.82257558] [ 20.8685      nan] [-46.4299      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1341/1406
+	desired propmot_ra, propmot_dec
+	 20.0 -50.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.70989434  8.52695405] [ 19.6084      nan] [-49.5563      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1342/1406
+1343/1406
+1344/1406
+1345/1406
+1346/1406
+1347/1406
+1348/1406
+1349/1406
+	desired propmot_ra, propmot_dec
+	 19.5 -45.7
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.56409594  5.37559614] [ 19.4578      nan] [-45.6856      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1350/1406
+1351/1406
+1352/1406
+	desired propmot_ra, propmot_dec
+	 22.0 -50.4
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.80160166  9.51261171] [ 21.5521      nan] [-50.4038      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1353/1406
+1354/1406
+	desired propmot_ra, propmot_dec
+	 18.5 -45.71
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.60669372  7.48800873] [ 18.5259      nan] [-45.7065      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1355/1406
+1356/1406
+1357/1406
+1358/1406
+1359/1406
+1360/1406
+1361/1406
+1362/1406
+	desired propmot_ra, propmot_dec
+	 5.0 -27.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.50504971  7.3840102 ] [ 33.9   nan] [-22.7   nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1363/1406
+1364/1406
+1365/1406
+1366/1406
+1367/1406
+	desired propmot_ra, propmot_dec
+	 4.01 -28.47
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.56055923  3.15116744] [ 4.00624      nan] [-28.4688      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1368/1406
+	desired propmot_ra, propmot_dec
+	 4.0 -31.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.58131477  7.57457409] [-0.2  nan] [-28.6   nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1369/1406
+1370/1406
+	desired propmot_ra, propmot_dec
+	 7.0 -27.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.47579697  4.61192729] [-0.79961      nan] [-33.5701      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1371/1406
+1372/1406
+	desired propmot_ra, propmot_dec
+	 -17.5 10.2
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.2446407   9.82168757] [-17.4646      nan] [ 10.2208      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1373/1406
+	desired propmot_ra, propmot_dec
+	 -17.7 11.2
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.35074433  9.4523239 ] [-17.6738      nan] [ 11.1627      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1374/1406
+1375/1406
+	desired propmot_ra, propmot_dec
+	 -17.0 11.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.29400284  7.02586048] [-16.9586      nan] [ 10.9941      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1376/1406
+1377/1406
+1378/1406
+1379/1406
+1380/1406
+	desired propmot_ra, propmot_dec
+	 -16.5 10.5
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.31065313  5.86664496] [-16.493     nan] [ 10.5011      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1381/1406
+1382/1406
+1383/1406
+	desired propmot_ra, propmot_dec
+	 0.0 -28.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.38570053  9.21718495] [ 0.176487       nan] [-28.4912      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1384/1406
+	desired propmot_ra, propmot_dec
+	 0.0 -28.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.47417819  9.94971018] [ 0.437475       nan] [-27.8498      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1385/1406
+	desired propmot_ra, propmot_dec
+	 -0.7 -27.2
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.10195406  9.70710501] [ 2.3  nan] [-28.6   nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1386/1406
+1387/1406
+	desired propmot_ra, propmot_dec
+	 2.0 -26.0
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.24684057  6.50152429] [ nan  4.6] [  nan -25.9]
+	caught at least one nan in matched PMs
+	taking closest in PM magnitude (bad signs for closest in sep)
+1388/1406
+1389/1406
+	desired propmot_ra, propmot_dec
+	 2.5 -28.7
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.46652098  6.96362245] [ 4.75358      nan] [-28.1107      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1390/1406
+1391/1406
+1392/1406
+1393/1406
+1394/1406
+	desired propmot_ra, propmot_dec
+	 -24.74 24.33
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.36253524  7.71565251] [-24.7407      nan] [ 24.3274      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1395/1406
+1396/1406
+1397/1406
+1398/1406
+1399/1406
+	desired propmot_ra, propmot_dec
+	 -26.0 24.9
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.50437048  9.74204903] [-25.8542      nan] [ 24.8894      nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1400/1406
+	desired propmot_ra, propmot_dec
+	 -24.7 23.5
+	matched sep distances, propmot_ra, propmot_dec
+	 [ 0.56035704  8.99918967] [-24.7275      nan] [ 23.483     nan]
+	caught at least one nan in matched PMs
+	taking closest in separation (same as in PM)
+1401/1406
+1402/1406
+1403/1406
+1404/1406
+1405/1406
+saved ../results/Gagne18_TIC_crossmatch_separations.png
+got 1 matches in ../data/Kane_MAST_Crossmatch_CTL.csv
+got 1 matches in ../results/Gagne_2018_TIC_crossmatched_10arcsec_maxsep.csv
+got 1 matches in ../results/MWSC_TIC_crossmatched/0038_NGC_104_1sigma_members_TIC_crossmatched.csv
+done, saved in ../results/alert_search_matches/sector_0_alert_matches.csv

@@ -1,0 +1,50 @@
+----------
+tic_89020549.csv
+
+Rp=4Re planet
+crossmatch against high-PM Oh+2017 candidate comoving pair.
+Oh's candidate comoving pair would have d~=6pc. They have it a log likelihood
+of "6", about average for their objects.
+
+Next:
+* understand Price-Whelan 2017 for how to use instantaneous RVs to confirm
+	they're wide-separation binaries
+* crossmatch this star against RAVE DR5, like Price-Whelan did.
+	-> is it one?
+
+"These pairs are identified by searching for approximately cospatial stars that
+appear to be comoving either in sky-projected velocities -- we refer to these as
+comoving pair candidates" -- or using full-space velocity information -- we
+refer to these as confirmed comoving pairs." Radial velocity follow-up is
+still needed to confirm the majority of the known candidates, though Gaia DR2
+will provide radial velocities for the brightest stars (G < 12; Gaia
+Collaboration et al. 2016b)."
+
+If you had an RV, how would you use it?
+"For the remaining 311 pairs, we use the measured radial velocities to
+re-compute the marginal likelihood ratio for the two hypotheses considered in
+previous work (see Appendix B, Oh et al. 2017)"
+"We compute two fully marginalized likelihoods (FMLs)
+for the data: (1) assuming that the two stars are comoving with identical 3D
+velocity vectors (within some allowed small dispersion), and (2) assuming that
+the two stars have independent 3D velocity vectors drawn from a prior velocity
+distribution."
+
+ok, well. Gaia DR2 gives the RVs as:
+RV_1 = -13.41 +/- 0.44 km/s
+RV_2 = -19.90 +/- 0.42 km/s  (this is the matched planet candidate star, follow
+      Oh's index scheme)
+
+these seem pretty close.
+
+pmRA_1 = 38.177 mas/yr
+pmDE_1 = -60.969 mas/yr
+
+pmRA_2 = 35.553 mas/yr
+pmDE_2 = -53.055 mas/yr
+
+dr2_id_1 = 6568766761106637440
+dr2_id_2 = 6520880040423258240
+
+
+----------
