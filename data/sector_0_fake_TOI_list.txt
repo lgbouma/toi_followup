@@ -1,0 +1,20 @@
+# ticid 440696398 chosen b/c it's in the pleiades.
+# 49040478 is K2-33b, and should be in many of these (USco)
+# 326467176 is a member from one of Rizzuto's lists
+# 148270291 is selected from BANYAN XIII
+# 362351038 is a Upper Cen Lupus member from BANYAN XII
+# 206288561 is a member of a moving group in the south
+# 426536659 is a low metallicity candidate from Schlaufman+14
+# 129636548 is a GI target from sector 1
+267190347
+93016484
+282706928
+440696398
+49040478
+326467176
+148270291
+362351038 
+206288561
+426536659
+129636548
+377263450
