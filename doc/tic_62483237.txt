@@ -1,0 +1,24 @@
+Second object: TIC 6248327. A possible planet with an 11 day orbital period and
+radius = 2.7* earth's. This one is less easy to follow up, but it may be
+interesting to do so because of the membership noted below.
+
+Star is HIP 110692, star 3934, group 214, size of group is 3. Star is Star 1 of
+the group. The DR2 crossmatch isn't instantly working, but if this is
+interesting, I can get them to you! All 3 stars should be bright enough to have
+DR2 RVs. If they're a mini-group, assuming they were coeval would help modeling
+the candidate system.
+
+----------
+
+From Table 1c of Oh+ 2017, the group's distance is 44.9pc. Indeed this would be
+super interesting if it were a young system. I think to confirm it'd be best to
+have stellar spectra, so we could model the isochrones. I'm copying in Joel,
+who knows a bit more about identifying young stars...
+
+----------
+
+Relevant update: the star hosting the planet candidate here also shows a RAVE
+"chromospheric activity excess". I need to learn more about whether this
+matters, but it correlates helpfully with age.
+
+----------

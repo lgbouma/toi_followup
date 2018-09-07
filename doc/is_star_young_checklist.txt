@@ -1,0 +1,34 @@
+WHAT IS THE AGE OF MY STAR?
+
+* SIMBAD QUERY. (2' radius)
+  Well studied?
+  Multiple?
+  Skim bibliography -- any history? Any important crossmatches?
+
+* VIZIER QUERY (30" radius, larger for high-PM stars)
+  Astrometry? (Gaia DR2, Hipparcos, UCAC5)
+  Photometry? (2MASS, WISE)
+  Spectral type? (Skiff MK compendium)
+  Metallicity? (Fe/H, alpha-rich? LAMOST, APOGEE, RAVE, CKS, Brewer)
+  Kinematics (UVW, Vtan)
+  Activity indicators (chromospheric activity, e.g., Ca H&K, coronal xray)
+  Rotation (P_rot, vsini)
+
+* is it a member of any known groups?
+  (clusters & associations OK. "moving groups" be careful.)
+
+* Multiplicity: Washington double star catalog. SB9.
+
+* IR excess? Protoplanetary disk? (<10Myr)
+
+* Any previous age estmiates?
+
+----------
+
+take a LS of the lightcurve...
+* is the photometric rotation period comparable to Pleiades/Hyades?
+  (Mamajek & Hillenbrand 2008)
+
+get a spectra:
+* is logR'_HK between -4.4 to -4.7?
+* is there Li doublet absorption, at 6707A?

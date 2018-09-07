@@ -1,0 +1,31 @@
+First object: TIC 89020549, a potentially Saturn-sized planet on a 2 day
+orbital period. The evidence for the planet's existence is also attached -- it
+could be a blended eclipsing binary, but it's definitely astrophysical.
+
+- is this candidate otherwise interesting?
+  - not exceptionally. Tmag=10.8, high PM, and Rp=4.2Re, P=2.1day.
+
+Regardless, this object matches against your Group1604, Star2, star id number
+10496. Gaia DR2 entries attached. The relevant numbers for the FML calculation
+are all in the attached DR2 crossmatch. By eye, the DR2 RVs make it look like
+they're probably comoving: 
+
+RV_1 = -13.41 +/- 0.44 km/s
+RV_2 = -19.90 +/- 0.42 km/s
+pmRA_1 = 38.177 mas/yr
+pmDE_1 = -60.969 mas/yr
+pmRA_2 = 35.553 mas/yr
+pmDE_2 = -53.055 mas/yr
+
+but if you could check that I'm not obviously wrong, that'd be much
+appreciated!
+
+----------
+
+Separation 115 arcmin. Physical separation 6.8pc. Pretty sure this qualifies as
+the "large separation" case...
+
+-> might indeed be comoving.
+
+but log-likelihood is ~=6, which is their minimum.
+
