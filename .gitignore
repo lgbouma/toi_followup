@@ -1,5 +1,5 @@
 data/MWSC*
 results/MWSC*
 *__pycache__*
-secret*
+*secret*
 *fits.gz
