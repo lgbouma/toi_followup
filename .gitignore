@@ -3,3 +3,4 @@ results/MWSC*
 *__pycache__*
 *secret*
 *fits.gz
+data/toi-plus*.csv
