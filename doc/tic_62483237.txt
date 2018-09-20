@@ -22,3 +22,37 @@ Relevant update: the star hosting the planet candidate here also shows a RAVE
 matters, but it correlates helpfully with age.
 
 ----------
+Ks mag = 7.7 (from TIC, crossmatched on position)
+
+but Simonian et al argued that short rotation periods might not imply youth--
+they might instead imply a tidally synchronized binary. (Here "short" means
+Prot < 10 days, for which they see an increasing photometric binary fraction).
+
+Looking at their Fig 1, for a Teff=4500K K dwarf, if M_Ks ~= 4.3, it's on the
+single star MS.
+
+If M_Ks ~> 4.0, there's an increasing chance that it's a photometric binary.
+
+recall mu = m - M, for mu the distance modulus, m the apparent mag, and M the
+absolute mag.
+
+Gaia parallax for this system gave plx = 23.5527 mas, for distance = 42.5 pc.
+
+No astrometric excess error.
+
+mu = 5 log10(d) - 5
+   = 5 log10(42.5) - 5
+  ~= 3.14194
+
+thus
+
+M_Ks = m - mu
+     = 7.7 - 3.14
+     = 3.86
+
+--> it's probably a photometric binary! Note though that this may have messed
+up the spectral typing, since it's ~0.4 mags brighter than the main sequence of
+their Fig 1.
+
+If Simonian et al's idea of tidal synchronization is a good one, this clearly
+raises the probability of this object being wonky for some reason.
