@@ -9,7 +9,14 @@ download the shell script to e.g.,
 
     /home/luke/local/HARPS_data/tic_62483237_harps
 
-execute it.
+execute it. The code in this file:
+
+    * extracts the HARPS tars
+    * moves things into a better directory structure
+    * gets the raw RVs
+    * plots the RVs
+    * performs a maximum likelihood keplerian fit, given the TESS epoch and
+      period
 '''
 
 import numpy as np, matplotlib.pyplot as plt, pandas as pd
