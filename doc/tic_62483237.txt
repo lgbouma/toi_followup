@@ -56,3 +56,34 @@ their Fig 1.
 
 If Simonian et al's idea of tidal synchronization is a good one, this clearly
 raises the probability of this object being wonky for some reason.
+
+----------
+COMOVING STARS:
+
+Planet host:
+HIP 110692, GAIADR2 6598814657249555328, TIC 62483237
+
+Comover 1:
+G=10.93, GAIADR2 6609416423242710272, TYC 6970-1089-1, HIP --
+separation 480"
+http://simbad.u-strasbg.fr/simbad/sim-id?Ident=%407341114&Name=TYC%206970-1089-1&submit=submit
+GaiaDR2: Teff=4300K, L=0.10Lsun, radius=0.57Rsun
+-> from Mamajek's table, consistent with K5V (though slightly small)
+
+Comover 2:
+G=9.2, GAIADR2 6625576838989093632, TYC --, HIP 110695
+HD 212563
+separation 611"
+spectral type K2V C
+http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HIP+110695&submit=SIMBAD+search
+GaiaDr2: Teff=5036K, L=0.33Lsun, radius=0.75Rsun
+
+
+--> all three are K dwarfs. A bit odd.
+
+
+----------
+- does ESO archive (HARPS) have anything?
+-> yes, see analysis
+- does Keck public archive have anything? (dec -35, unlikely)
+-> no
