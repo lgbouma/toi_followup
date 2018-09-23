@@ -26,6 +26,7 @@ Look for TIC ID alert matches in:
     * Rizzuto_15_table_2_USco_PMS_TIC_crossmatched_3arcsec_MAST.csv
     * Rizzuto_15_table_3_USco_disks_TIC_crossmatched_3arcsec_MAST.csv
     * Roser11_table_1_Hyades_members_TIC_3arcsec_crossmatch_MAST.csv
+    * ElBadry_2018_200pc_binaries.csv
 
     Other odd star lists:
     * Schlaufman14_lowmet_highFP_rate_TIC_3arcsec_crossmatch_MAST.csv
@@ -58,7 +59,8 @@ from crossmatch_catalogs_vs_TIC import make_Gagne18_BANYAN_XI_TIC_crossmatch, \
     make_Rizzuto11_TIC_crossmatch, make_Gagne18_BANYAN_XII_TIC_crossmatch, \
     make_Gagne18_BANYAN_XIII_TIC_crossmatch, make_Bell17_TIC_crossmatch, \
     make_Kraus14_TIC_crossmatch, make_Roser11_TIC_crossmatch, \
-    make_Schalufman14_TIC_crossmatch, make_Casagrande_11_TIC_crossmatch
+    make_Schalufman14_TIC_crossmatch, make_Casagrande_11_TIC_crossmatch, \
+    make_ElBadry_18_TIC_crossmatch
 
 from crossmatch_catalogs_vs_TIC import make_vizier_TIC_crossmatch
 
@@ -195,6 +197,7 @@ if __name__ == '__main__':
     do_Roser_11 = False
     do_Schlaufman_14 = False
     do_Casagrande_11 = False
+    do_ElBadry_18 = False
 
     make_diagnostic_plots = False
 
@@ -226,6 +229,8 @@ if __name__ == '__main__':
         make_Schalufman14_TIC_crossmatch()
     if do_Casagrande_11:
         make_Casagrande_11_TIC_crossmatch()
+    if do_ElBadry_18:
+        make_ElBadry_18_TIC_crossmatch()
 
 
     if find_which_alerts_are_interesting:

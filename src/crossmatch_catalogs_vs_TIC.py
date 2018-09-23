@@ -354,6 +354,65 @@ def make_Casagrande_11_TIC_crossmatch():
     )
 
 
+def make_ElBadry_18_TIC_crossmatch():
+    # MAST UI was being buggy, so I went with the API
+
+    df = pd.read_csv('../data/ElBadry_2018_200pc_binaries.csv')
+
+    ra = np.array(df['ra'])
+    dec = np.array(df['dec'])
+
+    cols = ['dstArcSec', 'Tmag', 'Teff', 'MatchID', 'MatchRA', 'MatchDEC']
+
+    maxsep=(3*u.arcsec).to(u.deg).value
+
+    sav = {}
+    for col in cols:
+        sav[col] = []
+
+    for ix, _ra, _dec in list(zip(range(len(ra)), ra, dec)):
+
+        print('{:d}/{:d}'.format(ix, len(ra)))
+        xm = tic_single_object_crossmatch(_ra, _dec, maxsep)
+
+        if len(xm['data'])==0:
+            for k in list(sav.keys()):
+                if k=='ra':
+                    sav[k].append(_ra)
+                elif k=='dec':
+                    sav[k].append(_dec)
+                else:
+                    sav[k].append(-99)
+            del xm
+            continue
+
+        elif len(xm['data'])==1:
+            for k in list(sav.keys()):
+                sav[k].append(xm['data'][0][k])
+            del xm
+            continue
+
+        else:
+            # take the closest star as the match.
+            sep_distances = []
+            for dat in xm['data']:
+                sep_distances.append(dat['dstArcSec'])
+            sep_distances = np.array(sep_distances)
+            closest_ind = np.argsort(sep_distances)[0]
+            print(sep_distances, sep_distances[closest_ind])
+            for k in list(sav.keys()):
+                sav[k].append(xm['data'][closest_ind][k])
+
+        del xm
+
+    for k in list(sav.keys()):
+        df[k] = np.array(sav[k])
+
+    outpath = '../results/ElBadry_2018_200pc_binaries_crossmatch_MAST_3arcsec.csv'
+    df.to_csv(outpath, index=False)
+    print('saved {:s}'.format(outpath))
+
+
 def make_vizier_TIC_crossmatch(vizier_search_str, ra_str, dec_str, table_num=0,
                               outname=''):
     '''
