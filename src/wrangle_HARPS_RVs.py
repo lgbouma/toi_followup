@@ -1,4 +1,4 @@
-from __future__ import division
+# -*- coding: utf-8 -*-
 '''
 There is a TOI you want ESO/HARPS archival data for. Go to
 
@@ -18,6 +18,7 @@ execute it. The code in this file:
     * performs a maximum likelihood keplerian fit, given the TESS epoch and
       period
 '''
+from __future__ import division, print_function
 
 import numpy as np, matplotlib.pyplot as plt, pandas as pd
 from glob import glob
@@ -34,6 +35,7 @@ from numpy import array as nparr
 
 from astrobase.services.tic import tic_single_object_crossmatch
 
+from read_harps import read_spec
 
 ############
 # OUTDATED #
@@ -386,6 +388,112 @@ def radvel_max_likelihood(rv, err_rv, bjd):
     print(posterior)
 
 
+def plot_spectra(extracted_dir):
+
+    # 1-dimensional extracted spectrum which has been corrected for
+    # barycentric motion and rebinned to 0.1 Ang steps. 
+    specpattern = extracted_dir+'*_s1d_*.fits'
+    specfiles = np.sort(glob(specpattern))
+
+    for specfile in specfiles:
+
+        wvlen, flux = read_spec(specfile)
+
+        savdir = '../results/harps_1d_spectra/tic_62483237_toi_139/'
+
+        plt.close('all')
+        f,ax = plt.subplots(figsize=(12,4))
+        ax.plot(wvlen, flux)
+        ax.set_xlabel('wavelength [Angstr]')
+        ax.set_ylabel('relative flux')
+        savname = os.path.basename(specfile).replace('.fits','_full.png')
+        f.savefig(savdir+savname, dpi=350)
+        print('saved %s' % savname)
+
+        # Ca K: 3934 Angstrom
+        # Ca H: 3969 Angstrom
+        plt.close('all')
+        f,axs = plt.subplots(nrows=1, ncols=2, figsize=(12,4))
+        for ax in axs:
+            ax.plot(wvlen, flux)
+            ax.set_xlabel('wavelength [Angstr]')
+            ax.set_ylabel('relative flux')
+
+        CaK_wvlen = 3934
+        CaH_wvlen = 3969
+        delta_wvlen = 50
+
+        axs[0].set_xlim([CaK_wvlen-delta_wvlen, CaK_wvlen+delta_wvlen])
+        axs[1].set_xlim([CaH_wvlen-delta_wvlen, CaH_wvlen+delta_wvlen])
+
+        CaK_sel = (
+            (wvlen > CaK_wvlen-delta_wvlen) & (wvlen < CaK_wvlen+delta_wvlen)
+        )
+        CaH_sel = (
+            (wvlen > CaH_wvlen-delta_wvlen) & (wvlen < CaH_wvlen+delta_wvlen)
+        )
+
+        axs[0].set_title('Ca K 3934 angstr')
+        axs[1].set_title('Ca H 3969 angstr')
+
+        axs[0].vlines(CaK_wvlen, np.min(flux[CaK_sel])-10,
+                      1.02*np.max(flux[CaK_sel]), color='r',zorder=-1)
+        axs[1].vlines(CaH_wvlen, np.min(flux[CaH_sel])-10,
+                      1.02*np.max(flux[CaH_sel]), color='r',zorder=-1)
+
+        axs[0].set_ylim([np.min(flux[CaK_sel])-10, 1.02*np.max(flux[CaK_sel])])
+        axs[1].set_ylim([np.min(flux[CaH_sel])-10, 1.02*np.max(flux[CaH_sel])])
+
+        savname = os.path.basename(specfile).replace('.fits','_CaHK.png')
+        f.savefig(savdir+savname, dpi=350)
+        print('saved %s' % savname)
+
+        # Lithium I resonance doublet:
+        # one transition at 6707.76 and other at 6707.91 A.
+        # note there is a Fe I line at 6707.44 A.
+
+        plt.close('all')
+        f,axs = plt.subplots(nrows=1, ncols=2, figsize=(12,4))
+        for ax in axs:
+            ax.plot(wvlen, flux)
+            ax.set_xlabel('wavelength [Angstr]')
+            ax.set_ylabel('relative flux')
+
+        Li_doublet_wvlen = (6707.76 + 6707.91)/2
+        FeI_line = 6707.44
+        delta_wvlen = 10
+
+        axs[0].set_xlim([Li_doublet_wvlen-delta_wvlen,
+                         Li_doublet_wvlen+delta_wvlen])
+        axs[1].set_xlim([FeI_line-delta_wvlen,
+                         FeI_line+delta_wvlen])
+
+        Li_doublet_sel = (
+            (wvlen > Li_doublet_wvlen-delta_wvlen)
+            &
+            (wvlen < Li_doublet_wvlen+delta_wvlen)
+        )
+        FeI_sel = (
+            (wvlen > FeI_line-delta_wvlen) & (wvlen < FeI_line+delta_wvlen)
+        )
+
+        axs[0].set_title('Li doublet (6707.76, 6707.91)')
+        axs[1].set_title('FeI line (6707.44)')
+
+        axs[0].vlines([(6707.76, 6707.91)], np.min(flux[Li_doublet_sel])-10,
+                      1.02*np.max(flux[Li_doublet_sel]), color='r',zorder=-1)
+        axs[1].vlines(FeI_line, np.min(flux[FeI_sel])-10,
+                      1.02*np.max(flux[FeI_sel]), color='r',zorder=-1)
+
+        axs[0].set_ylim([np.min(flux[Li_doublet_sel])-10,
+                         1.02*np.max(flux[Li_doublet_sel])])
+        axs[1].set_ylim([np.min(flux[FeI_sel])-10, 1.02*np.max(flux[FeI_sel])])
+
+        savname = os.path.basename(specfile).replace('.fits','_lithium.png')
+        f.savefig(savdir+savname, dpi=350)
+        print('saved %s' % savname)
+
+
 
 if __name__=="__main__":
 
@@ -402,6 +510,9 @@ if __name__=="__main__":
     # get the data
     extract_tars(tardir)
     fix_file_structure(tardir, extracted_dir)
+
+    plot_spectra(extracted_dir)
+
     rv, err_rv, bjd, exptime, snr, biswidth, fwhm, ccf_mask = (
         get_rvs(extracted_dir)
     )

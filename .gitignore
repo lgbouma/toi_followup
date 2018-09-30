@@ -5,3 +5,7 @@ results/MWSC*
 *fits.gz
 data/toi-plus*.csv
 results/individual_transit_inspection*
+*.h5
+results/*young*/*jpg
+results/harps_1d_spectra/*
+results/sector_1_tois/*_dvs.pdf
