@@ -1,0 +1,189 @@
+extracted /Users/luke/local/HARPS_data/tic_62483237_harps/ADP.2014-09-23T11:03:31.200.tar to /Users/luke/local/HARPS_data/tic_62483237_harps/
+extracted /Users/luke/local/HARPS_data/tic_62483237_harps/ADP.2014-09-24T09:42:09.703.tar to /Users/luke/local/HARPS_data/tic_62483237_harps/
+extracted /Users/luke/local/HARPS_data/tic_62483237_harps/ADP.2014-09-24T09:44:51.323.tar to /Users/luke/local/HARPS_data/tic_62483237_harps/
+extracted /Users/luke/local/HARPS_data/tic_62483237_harps/ADP.2014-09-26T16:53:25.400.tar to /Users/luke/local/HARPS_data/tic_62483237_harps/
+extracted /Users/luke/local/HARPS_data/tic_62483237_harps/ADP.2014-10-06T10:04:06.673.tar to /Users/luke/local/HARPS_data/tic_62483237_harps/
+extracted /Users/luke/local/HARPS_data/tic_62483237_harps/ADP.2014-10-06T10:06:22.133.tar to /Users/luke/local/HARPS_data/tic_62483237_harps/
+extracted /Users/luke/local/HARPS_data/tic_62483237_harps/ADP.2014-10-06T10:06:25.900.tar to /Users/luke/local/HARPS_data/tic_62483237_harps/
+extracted /Users/luke/local/HARPS_data/tic_62483237_harps/ADP.2014-10-06T10:07:52.700.tar to /Users/luke/local/HARPS_data/tic_62483237_harps/
+extracted /Users/luke/local/HARPS_data/tic_62483237_harps/ADP.2014-10-06T10:07:57.613.tar to /Users/luke/local/HARPS_data/tic_62483237_harps/
+extracted /Users/luke/local/HARPS_data/tic_62483237_harps/ADP.2014-10-06T10:07:59.293.tar to /Users/luke/local/HARPS_data/tic_62483237_harps/
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2012-09-26/HARPS.2012-09-27T04:19:50.520_INT_GUIDE.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2012-09-27T04:19:50.520_INT_GUIDE.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2012-09-26/HARPS.2012-09-27T04:19:50.520_bis_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2012-09-27T04:19:50.520_bis_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2012-09-26/HARPS.2012-09-27T04:19:50.520_ccf_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2012-09-27T04:19:50.520_ccf_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2012-09-26/HARPS.2012-09-27T04:19:50.520_e2ds_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2012-09-27T04:19:50.520_e2ds_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2012-09-26/HARPS.2012-09-27T04:19:50.520_s1d_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2012-09-27T04:19:50.520_s1d_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-06-16/HARPS.2013-06-17T10:07:15.790_INT_GUIDE.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-06-17T10:07:15.790_INT_GUIDE.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-06-16/HARPS.2013-06-17T10:07:15.790_bis_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-06-17T10:07:15.790_bis_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-06-16/HARPS.2013-06-17T10:07:15.790_ccf_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-06-17T10:07:15.790_ccf_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-06-16/HARPS.2013-06-17T10:07:15.790_e2ds_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-06-17T10:07:15.790_e2ds_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-06-16/HARPS.2013-06-17T10:07:15.790_s1d_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-06-17T10:07:15.790_s1d_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-07-09/HARPS.2013-07-10T10:32:23.176_INT_GUIDE.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-07-10T10:32:23.176_INT_GUIDE.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-07-09/HARPS.2013-07-10T10:32:23.176_bis_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-07-10T10:32:23.176_bis_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-07-09/HARPS.2013-07-10T10:32:23.176_ccf_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-07-10T10:32:23.176_ccf_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-07-09/HARPS.2013-07-10T10:32:23.176_e2ds_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-07-10T10:32:23.176_e2ds_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-07-09/HARPS.2013-07-10T10:32:23.176_s1d_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-07-10T10:32:23.176_s1d_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-09-20/HARPS.2013-09-21T06:25:33.568_INT_GUIDE.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-09-21T06:25:33.568_INT_GUIDE.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-09-20/HARPS.2013-09-21T06:25:33.568_bis_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-09-21T06:25:33.568_bis_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-09-20/HARPS.2013-09-21T06:25:33.568_ccf_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-09-21T06:25:33.568_ccf_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-09-20/HARPS.2013-09-21T06:25:33.568_e2ds_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-09-21T06:25:33.568_e2ds_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-09-20/HARPS.2013-09-21T06:25:33.568_e2ds_B.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-09-21T06:25:33.568_e2ds_B.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-09-20/HARPS.2013-09-21T06:25:33.568_s1d_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-09-21T06:25:33.568_s1d_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-09-20/HARPS.2013-09-21T06:25:33.568_s1d_B.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-09-21T06:25:33.568_s1d_B.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-10-04/HARPS.2013-10-05T03:32:07.614_INT_GUIDE.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-10-05T03:32:07.614_INT_GUIDE.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-10-04/HARPS.2013-10-05T03:32:07.614_bis_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-10-05T03:32:07.614_bis_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-10-04/HARPS.2013-10-05T03:32:07.614_ccf_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-10-05T03:32:07.614_ccf_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-10-04/HARPS.2013-10-05T03:32:07.614_e2ds_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-10-05T03:32:07.614_e2ds_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-10-04/HARPS.2013-10-05T03:32:07.614_s1d_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-10-05T03:32:07.614_s1d_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-12-01/HARPS.2013-12-02T00:36:46.595_INT_GUIDE.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-12-02T00:36:46.595_INT_GUIDE.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-12-01/HARPS.2013-12-02T00:36:46.595_bis_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-12-02T00:36:46.595_bis_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-12-01/HARPS.2013-12-02T00:36:46.595_ccf_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-12-02T00:36:46.595_ccf_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-12-01/HARPS.2013-12-02T00:36:46.595_e2ds_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-12-02T00:36:46.595_e2ds_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-12-01/HARPS.2013-12-02T00:36:46.595_s1d_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-12-02T00:36:46.595_s1d_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-12-05/HARPS.2013-12-06T00:44:11.626_INT_GUIDE.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-12-06T00:44:11.626_INT_GUIDE.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-12-05/HARPS.2013-12-06T00:44:11.626_bis_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-12-06T00:44:11.626_bis_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-12-05/HARPS.2013-12-06T00:44:11.626_ccf_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-12-06T00:44:11.626_ccf_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-12-05/HARPS.2013-12-06T00:44:11.626_e2ds_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-12-06T00:44:11.626_e2ds_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/data/reduced/2013-12-05/HARPS.2013-12-06T00:44:11.626_s1d_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2013-12-06T00:44:11.626_s1d_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/HARPS.2009-09-16T04:55:00.954_bis_G2_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2009-09-16T04:55:00.954_bis_G2_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/HARPS.2009-09-16T04:55:00.954_ccf_G2_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2009-09-16T04:55:00.954_ccf_G2_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/HARPS.2009-09-16T04:55:00.954_e2ds_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2009-09-16T04:55:00.954_e2ds_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/HARPS.2009-09-16T04:55:00.954_s1d_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2009-09-16T04:55:00.954_s1d_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/HARPS.2010-08-21T08:42:11.967_bis_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2010-08-21T08:42:11.967_bis_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/HARPS.2010-08-21T08:42:11.967_ccf_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2010-08-21T08:42:11.967_ccf_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/HARPS.2010-08-21T08:42:11.967_e2ds_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2010-08-21T08:42:11.967_e2ds_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/HARPS.2010-08-21T08:42:11.967_s1d_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2010-08-21T08:42:11.967_s1d_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/HARPS.2010-08-25T06:11:50.641_bis_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2010-08-25T06:11:50.641_bis_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/HARPS.2010-08-25T06:11:50.641_ccf_K5_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2010-08-25T06:11:50.641_ccf_K5_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/HARPS.2010-08-25T06:11:50.641_e2ds_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2010-08-25T06:11:50.641_e2ds_A.fits
+moved /Users/luke/local/HARPS_data/tic_62483237_harps/HARPS.2010-08-25T06:11:50.641_s1d_A.fits
+	to /Users/luke/local/HARPS_data/tic_62483237_harps/tar_extracted/HARPS.2010-08-25T06:11:50.641_s1d_A.fits
+S_HARPS: 1.31e+00
+S_MW: 1.29e+00
+R_HK_prime: 3.76e-05
+log10(R_HK_prime): -4.42
+S_HARPS: 1.10e+00
+S_MW: 1.09e+00
+R_HK_prime: 3.17e-05
+log10(R_HK_prime): -4.50
+S_HARPS: 1.10e+00
+S_MW: 1.08e+00
+R_HK_prime: 3.16e-05
+log10(R_HK_prime): -4.50
+S_HARPS: 1.13e+00
+S_MW: 1.12e+00
+R_HK_prime: 3.27e-05
+log10(R_HK_prime): -4.49
+S_HARPS: 1.18e+00
+S_MW: 1.16e+00
+R_HK_prime: 3.38e-05
+log10(R_HK_prime): -4.47
+S_HARPS: 1.13e+00
+S_MW: 1.11e+00
+R_HK_prime: 3.25e-05
+log10(R_HK_prime): -4.49
+S_HARPS: 1.07e+00
+S_MW: 1.06e+00
+R_HK_prime: 3.08e-05
+log10(R_HK_prime): -4.51
+S_HARPS: 4.43e+00
+S_MW: 4.23e+00
+R_HK_prime: 1.24e-04
+log10(R_HK_prime): -3.91
+S_HARPS: 1.13e+00
+S_MW: 1.11e+00
+R_HK_prime: 3.25e-05
+log10(R_HK_prime): -4.49
+S_HARPS: 1.23e+00
+S_MW: 1.21e+00
+R_HK_prime: 3.53e-05
+log10(R_HK_prime): -4.45
+S_HARPS: 1.27e+00
+S_MW: 1.24e+00
+R_HK_prime: 3.63e-05
+log10(R_HK_prime): -4.44
+made ../results/sector_1_tois/tic_62483237_harps_rv.png
+saved ../results/sector_1_tois/tic_62483237_harps_rv.csv
+made ../results/sector_1_tois/tic_62483237_harps_rv_k5_mask_only.png
+saved ../results/sector_1_tois/tic_62483237_harps_rv_k5_mask_only.csv
+k1_guess [m/s]: 2.50 m / s
+parameter                     value      vary
+per1                        11.0584      False
+tc1                          8334.9      False
+secosw1                           0      False
+sesinw1                           0      False
+logk1                             1       True
+dvdt                              0      False
+curv                              0      False
+gamma                       9774.95       True
+jit                               1       True
+
+made ../results/sector_1_tois/tic_62483237_harps_rv_initial_model.png
+made ../results/sector_1_tois/tic_62483237_harps_rv_maxlikelihood_model_full.png
+made ../results/sector_1_tois/tic_62483237_harps_rv_maxlikelihood_model_xlimcut1.png
+made ../results/sector_1_tois/tic_62483237_harps_rv_maxlikelihood_model_xlimcut2.png
+made ../results/sector_1_tois/tic_62483237_harps_rv_maxlikelihood_model_xlimcut3.png
+parameter                     value      vary
+per1                        11.0584      False
+tc1                          8334.9      False
+secosw1                           0      False
+sesinw1                           0      False
+logk1                       1.80627       True
+dvdt                              0      False
+curv                              0      False
+gamma                       9772.88       True
+jit                          1.3066       True
+
+Priors
+------
+Gaussian prior on jit, mu=1.0986122886681098, sigma=0.5
+Bounded prior on logk1, min=-1.384731962414758, max=3.2204382235733333
+
