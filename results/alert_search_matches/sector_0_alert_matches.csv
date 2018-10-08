@@ -39,6 +39,7 @@ dstArcSec,keywords,path,ticid
 ,G011112;G011183;G011132,../data/GI_S002.csv,149603524
 ,G011112;G011183;G011132,../data/GI_S002.csv,38846515
 ,G011112;G011183,../data/GI_S002.csv,25155310
+1.082870651388019,,../results/ElBadry_2018_200pc_binaries_crossmatch_MAST_3arcsec.csv,89020549
 0.0,,../results/Kane_MAST_crossmatch_CTL.csv,231663901
 0.00180312512636372,,../results/Kane_MAST_crossmatch_CTL.csv,281459670
 0.00189977011286859,,../results/Kane_MAST_crossmatch_CTL.csv,231670397
