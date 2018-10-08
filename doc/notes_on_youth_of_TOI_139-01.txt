@@ -1,0 +1,155 @@
+Title: Notes on the Possible Youth of TOI-139.01
+
+Author: Luke Bouma (luke@astro.princeton.edu)
+
+Date: Tue 02 Oct 2018 10:04:49 AM EDT
+
+Purpose: inform TFOP members about some interesting properties of TIC 62483237
+       = TOI 139.01, relevant for consideration during follow-up and analysis.
+
+------------------------------------------
+SPECTRAL ANALYSIS
+
+See SG2, SG4, and ExoFOP TESS notes for details of iSHELL and TRES results.
+
+There are 10 public HARPS RVs.  Phasing them to the TESS ephemeris yields an
+OK, but not great keplerian fit. (Points are large when they should be large,
+small when they should be small).
+
+Since P_orb ~= 11 days, and P_rotation ~= 8 days, RV signals should be treated
+with caution. The data also phase up well with stellar rotation.
+
+The HARPS 1d spectra show very obvious CaII H & K emission.
+
+The TRES spectra (from ExoFOP TESS) do not, however they are in the low-SNR
+regime.
+
+They don't show any obvious Li absorption (by eye).
+
+------------------------------------------
+ANALYSIS OF YOUTH INDICATORS
+
+At first pass, this object has three independent indicators of youth:
+
+1 Its photometric rotation period is ~8 days (from the TESS lightcurve by
+  eye, but also via ACF analysis). With its B-V=1.2, from e.g., Mamajek &
+  Hillenbrand 2008, Figure 9, this implies an age commensurate with stars in
+  the Pleaides. (If one believes the gyrochronology. One reason not to is if
+  binarity affected the rotation period. Given the public HARPS RV amplitudes
+  of K~=7m/s, this is unlikely).
+
+2 In RAVE DR4, the star is flagged as showing a chromospheric emission excess
+  (Ca H & K). In the 10 public HARPS spectra, you can easily see this emission by
+  eye. Stars with large amounts of Ca HK emission tend to be young (e.g.,
+  Noyes et al 1984, Wright et al 2004, Lorenzo-Oliviera et al 2018).
+
+  Converting this emission into R_HK' requires calculating S indices, and
+  convert to R_HK' using a color or Teff-dependent function that has been
+  correctly calibrated. See below for more.
+
+3 Oh et al (2017) report that the host star is in a candidate comoving group
+  with a total of three stars. In their nomenclature, the planet-host star is
+  HIP 110692, star 3934, group 214. 
+
+----------
+Looking closer at (3) shows (private communication from Semyeong Oh) that the
+candidate comoving group is not real. This comes from Gaia DR2 radial
+velocities, which were not available in Oh+ 2017's original work.  Note that
+Semyeong Oh also showed that there are no Gaia DR2 sources nearby this star
+that might obviously be comoving.
+
+Thus, there are only two independent indicators of youth: (1) the photometric
+rotation period, (2) the strong activity, as represented by Ca HK emission.
+
+Looking by eye in the HARPS spectra for Li absorption, none is immediately
+visible. However, for a Teff~=4500 K star, this isn't so surprising (Berger et
+al 2018).
+
+----------
+Looking closer at (2), one should note that Lorenzo-Oliviera et al (2018)
+recently worked out an age to R_HK' relation for solar twins.
+
+They also reported a calibration scheme that extended down to mid K dwarfs.
+Following their T_eff-dependent calibration scheme, I wind up getting
+R_HK_prime between -4.42 to -4.51 in all the public HARPS spectra. 
+
+This is consistent with a sub-Gyr old, or even sub-500-Myr old star.
+
+----------
+The host star is also overluminous, based on Simonian et al (2018)'s Gaia HR
+diagram.
+
+Ks mag = 7.7 (from TIC, crossmatched on position)
+
+Looking at Simonian+ 2018's Fig 1, for a Teff=4500K K dwarf, if M_Ks ~= 4.3,
+it's on the single star MS.
+
+If M_Ks ~> 4.0, there's an increasing chance that it's a photometric binary.
+
+recall mu = m - M, for mu the distance modulus, m the apparent mag, and M the
+absolute mag.  Gaia parallax for this system gave plx = 23.5527 mas, for
+distance = 42.5 pc.  (Note: no astrometric excess error in DR2).
+
+mu = 5 log10(d) - 5
+  ~= 3.1419
+
+thus
+
+M_Ks = m - mu
+     = 7.7 - 3.14
+     = 3.86
+
+--> it's probably a photometric binary! It's ~0.4 mags brighter than the main
+sequence of Simonian+ 2018's Fig 1.
+
+If Simonian et al's idea of tidal synchronization is a good one, this clearly
+raises the probability of this object being wonky for some reason.
+
+However the HARPS RVs rule out a tidally synchronized binary. So this star's
+status as a photometric binary should be a word of caution.
+
+----------
+Ciardi et al posted their Keck AO images on ExoFOP-TESS.
+
+Assuming d~=40pc, they rule out deltamag < 3 companions down to 0.2 arcsec = 8
+AU.
+
+This is somewhat surprising, given the photometric excess discussed above.
+
+----------
+Note that using the Teff, logg, [Fe/H] from RAVE DR4, and the parallax from
+Gaia DR2, we can run an isochrone fit using the MIST models (Choi et al 2016),
+and interpolated by Tim Morton's `isochrones` package.
+
+The resulting age (taking a log-uniform age prior from 10^7 - 10^10.15 years)
+is 2 sigma discrepant from being sub-Gyr old.
+
+It would be preferable for such an analysis to fold in the photometry, more
+believable stellar parameters, and the stellar density from the transit.
+
+----------
+CANDIDATE COMOVING STARS IDENTIFIED BY OH ET AL 2017:
+
+(The group isn't real, given DR2 RVs!! delta RV ~= 10km/s)
+
+Planet host:
+HIP 110692, GAIADR2 6598814657249555328, TIC 62483237
+
+Comover 1:
+G=10.93, GAIADR2 6609416423242710272, TYC 6970-1089-1, HIP --
+separation 480"
+http://simbad.u-strasbg.fr/simbad/sim-id?Ident=%407341114&Name=TYC%206970-1089-1&submit=submit
+GaiaDR2: Teff=4300K, L=0.10Lsun, radius=0.57Rsun
+-> from Mamajek's table, consistent with K5V (though slightly small)
+
+Comover 2:
+G=9.2, GAIADR2 6625576838989093632, TYC --, HIP 110695
+HD 212563
+separation 611"
+spectral type K2V C
+http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HIP+110695&submit=SIMBAD+search
+GaiaDr2: Teff=5036K, L=0.33Lsun, radius=0.75Rsun
+
+--> all three are K dwarfs. A bit odd.
+
+----------
