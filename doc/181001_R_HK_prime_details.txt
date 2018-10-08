@@ -1,0 +1,51 @@
+Looking closer at (2), one should note that Lorenzo-Oliviera et al (2018)
+recently worked out an age to R_HK' relation for solar twins.
+
+In their Sections 2.3 and 2.4, they describe how to go from HARPS spectra, to
+an R_HK' value.
+
+(In fact, they describe two ways).
+
+One of the ways -- using Eqs 7 and 8, once you have the HARPS S indices,
+basically do all of the work for you.
+
+Once you've worked out
+
+S_HARPS = 18.349 * (H+K)/(R+V),
+
+then you can transofrm to the Mount Wilson scale:
+
+S_MW = 0.9444 * S_HARPS + 0.0475,
+
+and apply Equations 8 and 3 to get R_HK:
+
+R_HK = 1.34e-4 * C_cf * S_MW,
+
+where C_cf(Teff) is
+
+log C_cf(Teff) = (-1.7e-7) T_eff^2 + (2.25e-3) Teff - 7.31.
+
+Then you compute R_HK' = R_HK - R_phot (subracting away the bolometric flux
+from the star, R_HK := F_HK / sigma_SB Teff^4) via:
+
+log R_phot(Teff) = -4.78845 - 3.707 / (1 + (Teff/4587.82)^*17.5272).
+
+===
+
+Starting with flux(wavelength), we just need to compute H, K, R and V.
+Wright et al. 2004, Figure 1 show the channels. They're not so complicated
+(thank god).
+
+(from Duncan et al 1991)
+Channel R: 3991.07 - 4011.07 angstrom
+Channel V: 3891.07 - 3911.07 angstrom.
+
+Two triangular, 1.09 angstrom FWHM bandpasses centered on the H and K lines.
+
+Note that "H, K, R, and V refer to the flux in the corresponding bandpass"
+(Wright et al 2004).
+
+===
+
+You can check the triangles from the plot with WebPlotDigitzer. They are indeed
+separated by 4*1.09 angstrom at the base.
