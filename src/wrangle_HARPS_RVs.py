@@ -32,6 +32,7 @@ import astropy.units as u
 from astropy.io import ascii, fits
 
 from numpy import array as nparr
+from scipy.interpolate import interp1d
 
 from astrobase.services.tic import tic_single_object_crossmatch
 
@@ -387,11 +388,109 @@ def radvel_max_likelihood(rv, err_rv, bjd):
 
     print(posterior)
 
+def _K_channel_response(wvlen):
+    # arg: wavelength vector
+    # return response function to multiply the flux
+
+    response = np.zeros_like(wvlen)
+
+    Ca_K_line = 3933.66
+    K_channel_min = Ca_K_line - 2*1.09
+    K_channel_max = Ca_K_line + 2*1.09
+
+    x = np.array([ K_channel_min, Ca_K_line, K_channel_max ])
+    y = np.array([ 0, 1, 0 ])
+
+    fn = interp1d(x, y, kind='linear', bounds_error=False, fill_value=0)
+
+    response = fn(wvlen)
+
+    return response
+
+def _H_channel_response(wvlen):
+    # arg: wavelength vector
+    # return response function to multiply the flux
+
+    response = np.zeros_like(wvlen)
+
+    Ca_H_line = 3968.47
+    H_channel_min = Ca_H_line - 2*1.09
+    H_channel_max = Ca_H_line + 2*1.09
+
+    x = np.array([ H_channel_min, Ca_H_line, H_channel_max ])
+    y = np.array([ 0, 1, 0 ])
+
+    fn = interp1d(x, y, kind='linear', bounds_error=False, fill_value=0)
+
+    response = fn(wvlen)
+
+    return response
+
+def C_cf(T_eff):
+    return 10**( (-1.7e-7)*T_eff**2 + (2.25e-3)*T_eff - 7.31 )
+
+def R_phot(T_eff):
+    return 10**(-4.78845 - 3.707 / (1 + (T_eff/4587.82)**17.5272))
+
+def calculate_R_HK_prime(extracted_dir, T_eff=4454.4):
+    '''
+    R_HK := flux in Ca H & and K emission lines / bolometric flux.
+
+    R_HK_prime = R_HK - correction for star's chromospheric flux.
+
+    For details, see ../doc/181001_R_HK_prime_details.txt
+
+    Teff = 4454.4 K is TIC 62483237's RAVE Teff.
+    '''
+
+    # build the response function for the triangle notches
+    specpattern = extracted_dir+'*_s1d_*.fits'
+    specfiles = np.sort(glob(specpattern))
+
+    for specfile in specfiles:
+
+        wvlen, flux = read_spec(specfile)
+
+        R_channel = (4011.07 > wvlen) & (wvlen > 3991.07)
+        V_channel = (3911.07 > wvlen) & (wvlen > 3891.07)
+
+        R = np.sum(flux[R_channel])
+        V = np.sum(flux[V_channel])
+
+        H_response = _H_channel_response(wvlen)
+        K_response = _K_channel_response(wvlen)
+
+        H = np.sum(flux*H_response)
+        K = np.sum(flux*K_response)
+
+        #NOTE are you SURE this shouldn't be actually integrated, with a d-lambda?
+
+        # follow Lorenzo-Oliviera et al (2018) for all the response
+        S_HARPS = 18.349 * (H+K)/(R+V)
+        S_MW = 0.9444 * S_HARPS + 0.0475
+        R_HK = 1.34e-4 * C_cf(T_eff) * S_MW
+        R_HK_prime = R_HK - R_phot(T_eff)
+
+        print('S_HARPS: {:.2e}'.format(S_HARPS))
+        print('S_MW: {:.2e}'.format(S_MW))
+        print('R_HK_prime: {:.2e}'.format(R_HK_prime))
+        print('log10(R_HK_prime): {:.2f}'.format(np.log10(R_HK_prime)))
+
 
 def plot_spectra(extracted_dir):
+    '''
+    The "s1d" file is a 1-dimensional extracted spectrum which has been
+    corrected for barycentric motion and rebinned to 0.1 Ang steps.
 
-    # 1-dimensional extracted spectrum which has been corrected for
-    # barycentric motion and rebinned to 0.1 Ang steps. 
+    Plots:
+        * the full spectrum.
+        * Ca K 3934
+        * Ca H 3969
+        * Lithium I resonance doublet: 6707.76 and 6707.91 A.
+        * a blended Fe I line to Li I at 6707.44 A.
+
+    '''
+
     specpattern = extracted_dir+'*_s1d_*.fits'
     specfiles = np.sort(glob(specpattern))
 
@@ -497,8 +596,11 @@ def plot_spectra(extracted_dir):
 
 if __name__=="__main__":
 
+    # functionality
+    run_plot_spectra = False
+
     # define paths
-    tardir='/home/luke/local/HARPS_data/tic_62483237_harps/'
+    tardir='/Users/luke/local/HARPS_data/tic_62483237_harps/'
     extracted_dir=tardir+'tar_extracted/'
 
     resultdir = '../results/sector_1_tois/'
@@ -511,7 +613,10 @@ if __name__=="__main__":
     extract_tars(tardir)
     fix_file_structure(tardir, extracted_dir)
 
-    plot_spectra(extracted_dir)
+    if run_plot_spectra:
+        plot_spectra(extracted_dir)
+
+    calculate_R_HK_prime(extracted_dir)
 
     rv, err_rv, bjd, exptime, snr, biswidth, fwhm, ccf_mask = (
         get_rvs(extracted_dir)
