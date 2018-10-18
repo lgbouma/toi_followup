@@ -1,0 +1,21 @@
+JNW likes:
+
+tic 120490566
+1% dip on P_orb=0.33day.
+
+tic 183985250
+<1 day Rp=4Re planet. would be WEIRD if real. right in radius desert...
+Tmag = 9
+USP around 9th mag sunlike star. Signal looks OK but there's a resonance with
+30min samples.
+
+tic 207140340
+Another USP giant candidate. if real, very inflated HJ orbiting a Rstar=2.2Rsun
+host
+
+tic 220396259
+P=0.9 day, Rstar=1.7Rsun, Rp=4.4 Re. weird if real.
+
+tic 260304296
+P=0.5 day, Rp=13.6Re, Rstar=1.5Rsun candidate. Would be close in!
+9th mag

@@ -1,0 +1,16 @@
+dstArcSec,keywords,path,ticid
+,G011250,../data/GI_S001.csv,183979262
+,G011025,../data/GI_S001.csv,279741379
+,G011180,../data/GI_S002.csv,12421862
+,G011048,../data/GI_S002.csv,441462736
+,G011242,../data/GI_S002.csv,382474101
+,G011180,../data/GI_S002.csv,262530407
+,G011180,../data/GI_S002.csv,270480629
+,G011048;G011250,../data/GI_S002.csv,207084429
+,G011250,../data/GI_S002.csv,183979262
+,G011025,../data/GI_S002.csv,279741379
+,G011180,../data/GI_S002.csv,272086159
+,G011231;G011180,../data/GI_S002.csv,307210830
+1.855340599411535,,../results/ElBadry_2018_200pc_binaries_crossmatch_MAST_3arcsec.csv,201334717
+2.137587962544921,,../results/ElBadry_2018_200pc_binaries_crossmatch_MAST_3arcsec.csv,120490566
+1.598483767597446,,../results/ElBadry_2018_200pc_binaries_crossmatch_MAST_3arcsec.csv,425997655

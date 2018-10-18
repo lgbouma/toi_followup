@@ -1,0 +1,5 @@
+make the lightcurve based on pixel-level data --
+
+TIC 238176110
+
+"do you see anything other than the transiting planet?"
