@@ -95,16 +95,16 @@ def make_Gagne18_skymaps(t):
                  savname='Gagne18_failed_xmatch_pts.pdf',
                  is_radec=True)
 
-def crossmatch_alerts(ticidlist_path, sector_id=0, find_alerts_in_MWSC=True):
+def crossmatch_alerts(ticidlist, sector_id=0, find_alerts_in_MWSC=True):
     '''
     take a list of TIC IDs from MIT alerts. do they overlap with any of the
     lists we have that are interesting?
 
-    args: ticidlist_path, a path to a newline-separated list of TICIDs of
+    args: ticidlist, a path to a newline-separated list of TICIDs of
         interest. no header info is assumed.
     '''
 
-    df = pd.read_csv(ticidlist_path, names=['ticid'], comment='#')
+    df = pd.read_csv(ticidlist, names=['ticid'], comment='#')
     TOIids = arr(df['ticid'])
 
     # make list of all files with TIC crossmatches that we will search
@@ -120,7 +120,8 @@ def crossmatch_alerts(ticidlist_path, sector_id=0, find_alerts_in_MWSC=True):
 
     searchfiles = np.sort(searchfiles)
 
-    savname = 'sector_{:d}_alert_matches.csv'.format(sector_id)
+    savbase = os.path.basename(ticidlist).replace('.csv','')
+    savname = '{:s}_alert_matches.csv'.format(savbase)
     savdir = '../results/alert_search_matches/'
     if os.path.exists(savdir+savname):
         os.remove(savdir+savname)
@@ -235,13 +236,15 @@ if __name__ == '__main__':
 
     if find_which_alerts_are_interesting:
 
+        inname = '../data/sector_2_PCs_2018-10-12.csv'
+
         if not find_alerts_in_MWSC:
             print(50*'#')
             print('WARNING: ignoring MWSC lists!')
             print(50*'#')
 
         crossmatch_alerts(
-            '../data/sector_0_TOI_list.txt',
+            inname,
             find_alerts_in_MWSC=find_alerts_in_MWSC
         )
 
