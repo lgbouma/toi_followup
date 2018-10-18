@@ -136,46 +136,6 @@ def make_LS_ACF_periodograms(infile):
                                          outfile=outpath, objectinfo=infodict)
 
 
-def get_transit_times(blsd, time, N, trapd=None):
-    '''
-    Given a BLS period, epoch, and transit ingress/egress points, compute
-    the times within ~N transit durations of each transit.
-
-    Optionally, use the (more accurate) trapezoidal fit period and epoch, if
-    it's passed.
-
-    This is useful for fitting & inspecting individual transits.
-    '''
-
-    if trapd:
-        period = trapd['fitinfo']['finalparams'][0]
-        t0 = trapd['fitinfo']['fitepoch']
-        transitduration_phase = trapd['fitinfo']['finalparams'][3]
-        tdur = period * transitduration_phase
-    else:
-        period = blsd['period']
-        t0 = blsd['epoch']
-        tdur = (
-            period*
-            (blsd['transegressbin']-blsd['transingressbin'])/blsd['nphasebins']
-        )
-        if not blsd['transegressbin'] > blsd['transingressbin']:
-            raise AssertionError('careful of the width...')
-
-    tmids = [t0 + ix*period for ix in range(-1000,1000)]
-
-    sel = (tmids > np.nanmin(time)) & (tmids < np.nanmax(time))
-    tmids_obsd = np.array(tmids)[sel]
-
-    t_Is = tmids_obsd - tdur/2
-    t_IVs = tmids_obsd + tdur/2
-
-    # focus on the times around transit
-    t_starts = t_Is - N*tdur
-    t_ends = t_Is + N*tdur
-
-    return tmids_obsd, t_starts, t_ends
-
 def _calculate_panel_nrows_ncols(n_transits):
     if n_transits <= 4:
         nrows, ncols = 2, 2
@@ -201,6 +161,7 @@ def _calculate_panel_nrows_ncols(n_transits):
         raise AssertionError('consider a different visualization approach')
 
     return nrows, ncols
+
 
 def plot_individual_transit_inspection_panel(time, flux, err_flux,
                                              indivtransit_savpath=None,
@@ -374,7 +335,8 @@ def median_filter_lightcurve(time, flux, err_flux, savpath, mingap_min=240.,
                              smooth_window_day=2., cadence_min=2,
                              make_diagnostic_plots=True):
     '''
-    detrending parameters. mingap: minimum gap to determine time group size.
+    detrending parameters.
+    mingap_min: minimum gap to determine time group size. (in minutes).
     smooth_window_day: window for median filtering.
     '''
 
@@ -436,3 +398,34 @@ def make_individual_transit_inspection_panel(infile):
                                              indivtransit_savpath=outpath,
                                              blsfit_savpath=blsfit_savpath,
                                              trapfit_savpath=trapfit_savpath)
+
+def run_two_periodograms(times, mags, errs, startp, endp,
+                         outdir='../results/',
+                         outname='foobar.png', magsarefluxes=False,
+                         sigclip=None, autofreq=False):
+    '''
+    return blsdict, gls
+    '''
+
+    if not autofreq:
+        blsdict = kbls.bls_parallel_pfind(times, mags, errs,
+                                          magsarefluxes=magsarefluxes,
+                                          startp=startp, endp=endp,
+                                          maxtransitduration=0.3, nworkers=8,
+                                          sigclip=sigclip, stepsize=1e-7,
+                                          autofreq=False)
+    elif autofreq:
+        blsdict = kbls.bls_parallel_pfind(times, mags, errs,
+                                          magsarefluxes=magsarefluxes,
+                                          startp=startp, endp=endp,
+                                          maxtransitduration=0.3, nworkers=8,
+                                          sigclip=sigclip, autofreq=True)
+
+    gls = periodbase.pgen_lsp(times, mags, errs, magsarefluxes=magsarefluxes,
+                              startp=startp, endp=endp, nworkers=8,
+                              sigclip=sigclip)
+    outpath = outdir+outname
+    cpf = checkplot.twolsp_checkplot_png(blsdict, gls, times, mags, errs,
+                                         outfile=outpath, objectinfo=None)
+
+    return blsdict, gls
